@@ -1,0 +1,133 @@
+%---------------------------------------------------------------------------------------
+\chapter{Supervisión del sistema usando Java Applet}\label{chap5}
+El fin de este capítulo es introducir la capacidad del PLC S7-200 con el módulo Ethernet CP243-1 IT para transmitir datos desde el sistema S7-200 a través de ``Industrial Ethernet'' y otra funciones IT.\\
+
+Las funciones IT permiten el envío de e-mails para diagnóstico, transferencia de archivos mediante protocolo FTP y además la supervisión y control a través de un navegador web. Principalmente usaremos la función IT para usar el ``web browser'' como interfaz HMI. 
+\section{Configuración de Asistente Internet}
+Para permitir que el módulo CP243-1 IT pueda crear un servidor web se tiene que configurar el asistente de internet de la siguiente forma:
+\begin{enumerate}
+\item Abrir el asistente internet del software STEP7 MicroWIN, seleccionando ``Herramientas'' desde la barra de menú superior y luego ``Asistente Internet'', se abre un cuadro de diálogo donde se explica para que sirve el asistente y dar click en ``Siguiente'', véase figura \ref{Internet1}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet1.png}
+\caption{Supervisión HMI cuando se pierde la comunicación.}
+\label{Internet1}
+\end{figure}
+
+\item Se abrirá el cuadro de diálogo donde se debe elegir la ubicación ``0'' del módulo respecto al CPU del PLC y dar click en ``Leer módulos'' y seleccionar ``CP243-1 INTERNET'' y dar ``Siguiente'', luego ingresar con las direcciones correspondientes , véase figura \ref{Internet2}\\
+
+Por ejemplo:
+\begin{itemize}
+\item Dirección IP: 10.42.3.133
+\item Máscara de subred: 255.255.255.0
+\item Dirección puerta de enlace: 10.42.3.1 
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet2.png}
+\caption{Asistente Internet, configuración de direcciones.}
+\label{Internet2}
+\end{figure}
+
+\item La elección de bytes de comando de módulo y enlace punto a punto con los valores por omisión, véase figura \ref{Internet3}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet3.png}
+\caption{Asistente, cantidad de enlaces.}
+\label{Internet3}
+\end{figure}
+
+\item Se elije generar una protección CRC, que sirve para evitar la sobreescritura accidental de la configuración, ver figura \ref{Internet4}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet4.png}
+\caption{Asistente Internet, seguridad CRC.}
+\label{Internet4}
+\end{figure}
+
+\item Asignar un nombre de usuario (ID) y contraseña al administrador del dispositivo y permitir el acceso completo al web, véase figura \ref{Internet5}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet5.png}
+\caption{Asistente Internet, configuración usuario y contraseña.}
+\label{Internet5}
+\end{figure}
+
+\item Habilitar solo los servicios HTTP, véase figura \ref{Internet6}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet6.png}
+\caption{Asistente Internet, servicios HTTP.}
+\label{Internet6}
+\end{figure}
+
+\item Luego se debe proponer una dirección de memoria para guardar la configuración recién creada, tener cuidado con no elegir bytes que ya estén utilizados por tanto dejar que el asistente proponga una dirección, véase figura \ref{Internet7}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet7.png}
+\caption{Asistente Internet, memoria dedicada a configuración.}
+\label{Internet7}
+\end{figure}
+
+\item El siguiente cuadro muestra los bytes usados por el asistente y la subrutina que se creará, véase figura \ref{Internet8}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet8.png}
+\caption{Asistente Internet, creación subrutina.}
+\label{Internet8}
+\end{figure}
+
+\item Además se da la opción de agregar otras funciones IT como crear otras cuentas de usuario pro ejemplo, en este caso no se hará por lo que se finalizará el asistente, véase figura \ref{Internet9}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet9.png}
+\caption{Asistente Internet, creaación otras funciones IT.}
+\label{Internet9}
+\end{figure}
+\end{enumerate}
+
+Luego de terminada la configuración del asistente se debe cargar el programa en el PLC y reiniciarlo (ver figura \ref{Reset}), para que la configuración quede guardada en el móduo de comunicación.\\
+
+Por último después al terminar la configuración, se creará la subrutina de internet, la cual debe ser agregada en el diagrama LADDER para mantener constantemente la comunicación, además de agregar variables necesarias para el uso de ella, véase figura \ref{InternetLadder}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{fig/Internet10.png}
+\caption{Bloque subrutina agregada en LADDER.}
+\label{Internet10}
+\end{figure}
+
+Donde ``CP\_Ready'' nos dice el estado del CP243-1 IT, ``Ch\_Ready'' señala el estado de los distintos canales o servicio IT y por último, ``Error'' nos entrega el código de error o de aviso.\\
+
+Por último señalar que en el módulo de comunicaciones también se guardan las páginas web, los applets y los S7Beans del proyecto. Estos archivos son enviados al módulo mediante un cliente FTP (en este proyecto se utiliza el cliente FTP que suministra el sistema operativo Windows).
+
+\section{S7 Beans}
+Un ``Bean'' es un componente de software que puede ser manipulado visualmente por un IDE, para facilitar el desarrollo de aplicaciones gráficas de usuario. El módulo de comunicaciones CP 243-1 IT suministra los llamados  S7Beans (en su versión 2.5.3), que son componentes diseñados especialmente para comunicarse con el servidor web creado en el módulo.\\
+
+Se puede decir también que un ``Bean'' es una clase de Java, que obedece ciertas normas en su estructura, donde es posible descargar los S7Beans y su respectiva documentación desde \cite{S7Beans} en su versión 2.5.5.\\
+
+Algunos de estos S7Beans se encargan de establecer la comunicación entre las variables del applet y el PLC (por ejemplo: S7CP, S7Device y S7Variable), otros se encargan de direccionar estas variables, asignándoles un puntero a una sección de memoria del PLC (S7AnyPointer) y otros son componentes gráficos dinámicos, que cambian en base al estado de una variable del PLC (CLStateLed).
+
+\section{Supervisión mediante una página web basada en Applets Java}
+La herramienta que permite diseñar aplicaciones Java, entre ellas los applets, es conocida como IDE, o ambiente de desarrollo integrado (``Integrated Development Environment''). Esta aplicación está compuesta por un conjunto de programas: un editor de código, un compilador, un depurador y un constructor de interfaz gráfica (GUI), entre otros.
+
+Existen muchos ambientes de desarrollo, con los cuales es posible diseñar aplicaciones en base a diversos lenguajes de programación. El lenguaje de interés en este proyecto es el lenguaje Java; donde existen más de un IDE para trabajar con este lenguaje, por ejemplo trabajar con Netbeans o IntelliJ IDEA.\\
+
+Debido a que los S7Beans que distribuye Siemens junto al CP243-1 IT son clases de java y se hallan agrupados en archivos ``.jar''. Para que  estos componentes  estén disponibles  al momento  de  diseñar el applet, deben ser agregados previamente en el proyecto.\\
+
+Para la elaboración de páginas web, se utiliza el lenguaje HTM (o HTML, ``HyperText Markup Language''). En este lenguaje se utilizan etiquetas para introducir los componentes del diseño de la página, como imágenes, tablas, párrafos, enlaces a otras páginas, etc.\\
+
+Las etiquetas que se utilizan para introducir un applet en una página web son: $<$applet$>$ y $<$/applet$>$. El archivo HTML debe establecer qué applet debe ser cargado por el navegador y desde dónde obtenerlo, asi también, el espacio que ha de ocupar dentro de la página. Para ello, el parámetro ``code'' identifica el código del applet ya compilado (archivo ``.class'') y los parámetros ``width'' y ``heigth'' fijan su tamaño.\\
+
+Normalmente una aplicación Java contiene varias clases, por tanto, el uso de un único archivo ``.jar'' para arguparlas resulta bastante conveniente. El atributo ``archive'' de la etiqueta $<$applet$>$ permite listar estos archivos ``.jar'', así como otros recursos que el applet solicite. Un navegador podrá ejecutar un applet, siempre y cuando tenga habilitado el uso de Java y se haya instalado previamente una versión actualizada de la Máquina Virtual de Java (o JRE).\\
+
+Para mayor claridad se estos tópicos se puede leer la memoria de titulación de Damaris Ortega, Ingeniero ejecución electrónica, de nuestra universidad \cite{Damaris}.
