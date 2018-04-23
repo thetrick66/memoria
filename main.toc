@@ -1,4 +1,4 @@
-\select@language {spanish}
+\babel@toc {spanish}{}
 \contentsline {chapter}{\numberline {1.}Introducci\'on}{9}{chapter.1}
 \contentsline {section}{\numberline {1.1}Memorias multidisciplinaria}{9}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Felipe Cordero}{10}{subsection.1.1.1}
