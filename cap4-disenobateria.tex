@@ -3,7 +3,7 @@
 La carga de una batería de Li-ion sigue un perfil diseñado para asegurar la seguridad y la vida de estas sin comprometer su rendimiento. Si una batería de Li-ion es descargada completamente, se aplica una precondición de carga de alrededor del 10\%. Esto previene que la pila suba mucho su temperatura hasta un tiempo que sea aceptable enviar 100\% de la corriente hacia la pila como se puede observar en la figura \ref{grafico}.\\
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{figura/bateria/grafico.png}
+\includegraphics[scale=0.6]{figuras/bateria/grafico.png}
 \caption{Etapas de carga de baterías Li-ion para una batería de 4.2[V]}
 \label{grafico}
 \end{figure}
@@ -43,7 +43,7 @@ Este viene a ser la conexión a la alimentación en la cual se puede usar un adapt
 Este pin cumple una función de selección para carga rápida. Con una entrada lógica baja, el limite de carga es de baja corriente $100[mA]$, en cambio al utilizar una entrada lógica alta, la entrada de corriente llega a ser de $500[mA]$. Este pin tiene una relación con la selección del nivel lógico que tenga el pin ''SEL'' como se puede observar en la figura \ref{cargarapida}.\\
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{figura/bateria/cargarapida.png}
+\includegraphics[scale=0.5]{figuras/bateria/cargarapida.png}
 \caption{Configuraciones disponibles para carga rápida}
 \label{cargarapida}
 \end{figure}
@@ -88,7 +88,7 @@ Con todos los cálculos anteriores, finalmente se diseña el circuito con el integ
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.7]{figura/bateria/esquematico.jpg}
+\includegraphics[scale=0.7]{figuras/bateria/esquematico.jpg}
 \caption{Diseño de cargador de batería en software EagleCAD}
 \label{esquematico22}
 \end{figure}
