@@ -23,61 +23,62 @@
 \contentsline {subsubsection}{Lilypad Temperature Sensor}{22}{section*.9}
 \contentsline {subsubsection}{DS18B20}{23}{section*.10}
 \contentsline {subsection}{\numberline {2.2.3}Ritmo Respiratorio}{24}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Unidad de movimiento inercial (IMU)}{25}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}MPU-9250}{26}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Comunicaci\'on}{27}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}GPRS shield}{27}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Bluetooth BLE shield}{29}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Conclusiones}{29}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Plataforma de desarrollo}{30}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Electrocardiograma}{30}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Temperatura}{30}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}IMU}{31}{subsection.2.5.4}
-\contentsline {chapter}{\numberline {3.}Selecci\'on del microcontrolador}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}ATMega328p}{32}{section.3.1}
-\contentsline {section}{\numberline {3.2}ATMega2560}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}ATMega644PA}{35}{section.3.3}
-\contentsline {section}{\numberline {3.4}Conclusiones}{36}{section.3.4}
-\contentsline {chapter}{\numberline {4.}Firmware y programaci\'on del microcontrolador}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}Bootloader}{38}{section.4.1}
-\contentsline {section}{\numberline {4.2}ISP - In-System Programming}{39}{section.4.2}
-\contentsline {section}{\numberline {4.3}Programaci\'on de un microcontrolador}{40}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Programador ISP}{41}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Programaci\'on USB}{42}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}FT232RL}{43}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Programa en Arduino}{45}{section.4.5}
-\contentsline {chapter}{\numberline {5.}Dise\~no Electrocardiograma}{46}{chapter.5}
-\contentsline {section}{\numberline {5.1}DFRobot Heart Rate Monitor}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Biopac MP150 ECG100C}{47}{section.5.2}
-\contentsline {section}{\numberline {5.3}AD8232}{49}{section.5.3}
-\contentsline {section}{\numberline {5.4}Comparaci\'on entre Biopac y DFRobot}{51}{section.5.4}
-\contentsline {section}{\numberline {5.5}Eliminando ruido de la fuente}{52}{section.5.5}
-\contentsline {chapter}{\numberline {6.}Dise\~no bluetooth}{54}{chapter.6}
-\contentsline {section}{\numberline {6.1}BLEBee}{54}{section.6.1}
-\contentsline {section}{\numberline {6.2}Comunicaci\'on UART}{56}{section.6.2}
-\contentsline {section}{\numberline {6.3}Dise\~no del m\'odulo bluetooth}{56}{section.6.3}
-\contentsline {chapter}{\numberline {7.}Dise\~no cargador de bater\IeC {\'\i }a }{58}{chapter.7}
-\contentsline {section}{\numberline {7.1}Cargador de bater\IeC {\'\i }a con corriente compartida con carga}{59}{section.7.1}
-\contentsline {section}{\numberline {7.2}MCP73871}{59}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Power Supply Input (IN)}{60}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Input Source Type Selection (SEL)}{60}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Regulaci\'on de carga r\'apida(PROG1)}{61}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Corriente de t\'ermino de carga (PROG3)}{62}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Salida de voltaje a la bater\IeC {\'\i }a $V_{BAT}$ y sensor de voltaje de bater\IeC {\'\i }a $V_{SENSE}$}{62}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Pines Generales}{62}{subsection.7.2.6}
-\contentsline {subsection}{\numberline {7.2.7}Dise\~no del esquem\'atico}{62}{subsection.7.2.7}
-\contentsline {chapter}{\numberline {8.}Dise\~no final}{64}{chapter.8}
-\contentsline {section}{\numberline {8.1}Bot\'on ON/OFF}{64}{section.8.1}
-\contentsline {section}{\numberline {8.2}Esquem\'atico}{67}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Regulador de voltaje 3.3[V]}{67}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Conector para sensores}{68}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Pin header para prototipo}{70}{subsection.8.2.3}
-\contentsline {chapter}{\numberline {9.}Discusi\'on}{71}{chapter.9}
-\contentsline {section}{\numberline {9.1}Transformaci\'on de memoria multidisciplinaria a emprendimiento}{71}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Entrevista a doctores en hospital de Quintero}{74}{subsection.9.1.1}
-\contentsline {subsubsection}{Entrevista a Fabi\'an \'Alvarez}{74}{section*.11}
-\contentsline {subsubsection}{Entrevista a Cristian Mondaca}{75}{section*.12}
-\contentsline {subsection}{\numberline {9.1.2}Pitch day selecconados - Marzo 2018}{76}{subsection.9.1.2}
-\contentsline {section}{\numberline {9.2}Tareas Futuras}{78}{section.9.2}
-\contentsline {chapter}{\numberline {10.}Conclusiones}{79}{chapter.10}
-\contentsline {chapter}{\numberline {11.}Anexos}{80}{chapter.11}
+\contentsline {subsection}{\numberline {2.2.4}Unidad de movimiento inercial (IMU)}{25}{subsection.2.2.4}
+\contentsline {subsubsection}{MPU-9250}{26}{section*.11}
+\contentsline {section}{\numberline {2.3}Comunicaci\'on}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Celular directa: GPRS/GSM shield}{30}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Celular indirecta: Bluetooth BLE shield}{31}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Conclusiones}{32}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Plataforma de desarrollo}{32}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Electrocardiograma}{32}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Temperatura}{32}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}IMU}{33}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Comunicaci\'on}{33}{subsection.2.4.5}
+\contentsline {chapter}{\numberline {3.}Selecci\'on del microcontrolador}{34}{chapter.3}
+\contentsline {section}{\numberline {3.1}ATMega328p}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}ATMega2560}{35}{section.3.2}
+\contentsline {section}{\numberline {3.3}ATMega644PA}{37}{section.3.3}
+\contentsline {section}{\numberline {3.4}Conclusiones}{38}{section.3.4}
+\contentsline {chapter}{\numberline {4.}Firmware y programaci\'on del microcontrolador}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}Bootloader}{40}{section.4.1}
+\contentsline {section}{\numberline {4.2}ISP - In-System Programming}{41}{section.4.2}
+\contentsline {section}{\numberline {4.3}Programaci\'on de un microcontrolador}{42}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Programador ISP}{43}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Programaci\'on USB}{44}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}FT232RL}{45}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Programa en Arduino}{47}{section.4.5}
+\contentsline {chapter}{\numberline {5.}Dise\~no Electrocardiograma}{48}{chapter.5}
+\contentsline {section}{\numberline {5.1}DFRobot Heart Rate Monitor}{48}{section.5.1}
+\contentsline {section}{\numberline {5.2}Biopac MP150 ECG100C}{49}{section.5.2}
+\contentsline {section}{\numberline {5.3}AD8232}{51}{section.5.3}
+\contentsline {section}{\numberline {5.4}Comparaci\'on entre Biopac y DFRobot}{53}{section.5.4}
+\contentsline {section}{\numberline {5.5}Eliminando ruido de la fuente}{54}{section.5.5}
+\contentsline {chapter}{\numberline {6.}Dise\~no bluetooth}{56}{chapter.6}
+\contentsline {section}{\numberline {6.1}BLEBee}{56}{section.6.1}
+\contentsline {section}{\numberline {6.2}Comunicaci\'on UART}{58}{section.6.2}
+\contentsline {section}{\numberline {6.3}Dise\~no del m\'odulo bluetooth}{58}{section.6.3}
+\contentsline {chapter}{\numberline {7.}Dise\~no cargador de bater\IeC {\'\i }a }{60}{chapter.7}
+\contentsline {section}{\numberline {7.1}Cargador de bater\IeC {\'\i }a con corriente compartida con carga}{61}{section.7.1}
+\contentsline {section}{\numberline {7.2}MCP73871}{61}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Power Supply Input (IN)}{62}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Input Source Type Selection (SEL)}{62}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Regulaci\'on de carga r\'apida(PROG1)}{63}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Corriente de t\'ermino de carga (PROG3)}{64}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Salida de voltaje a la bater\IeC {\'\i }a $V_{BAT}$ y sensor de voltaje de bater\IeC {\'\i }a $V_{SENSE}$}{64}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Pines Generales}{64}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {7.2.7}Dise\~no del esquem\'atico}{64}{subsection.7.2.7}
+\contentsline {chapter}{\numberline {8.}Dise\~no final}{66}{chapter.8}
+\contentsline {section}{\numberline {8.1}Bot\'on ON/OFF}{66}{section.8.1}
+\contentsline {section}{\numberline {8.2}Esquem\'atico}{69}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Regulador de voltaje 3.3[V]}{69}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Conector para sensores}{70}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Pin header para prototipo}{72}{subsection.8.2.3}
+\contentsline {chapter}{\numberline {9.}Discusi\'on}{73}{chapter.9}
+\contentsline {section}{\numberline {9.1}Transformaci\'on de memoria multidisciplinaria a emprendimiento}{73}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Entrevista a doctores en hospital de Quintero}{76}{subsection.9.1.1}
+\contentsline {subsubsection}{Entrevista a Fabi\'an \'Alvarez}{76}{section*.12}
+\contentsline {subsubsection}{Entrevista a Cristian Mondaca}{77}{section*.13}
+\contentsline {subsection}{\numberline {9.1.2}Pitch day selecconados - Marzo 2018}{78}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Tareas Futuras}{80}{section.9.2}
+\contentsline {chapter}{\numberline {10.}Conclusiones}{81}{chapter.10}
+\contentsline {chapter}{\numberline {11.}Anexos}{82}{chapter.11}

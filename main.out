@@ -18,16 +18,16 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{ECG}{section.2.2}% 18
 \BOOKMARK [2][-]{subsection.2.2.2}{Temperatura}{section.2.2}% 19
 \BOOKMARK [2][-]{subsection.2.2.3}{Ritmo Respiratorio}{section.2.2}% 20
-\BOOKMARK [1][-]{section.2.3}{Unidad de movimiento inercial \(IMU\)}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.3.1}{MPU-9250}{section.2.3}% 22
-\BOOKMARK [1][-]{section.2.4}{Comunicaci\363n}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.4.1}{GPRS shield}{section.2.4}% 24
-\BOOKMARK [2][-]{subsection.2.4.2}{Bluetooth BLE shield}{section.2.4}% 25
-\BOOKMARK [1][-]{section.2.5}{Conclusiones}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.5.1}{Plataforma de desarrollo}{section.2.5}% 27
-\BOOKMARK [2][-]{subsection.2.5.2}{Electrocardiograma}{section.2.5}% 28
-\BOOKMARK [2][-]{subsection.2.5.3}{Temperatura}{section.2.5}% 29
-\BOOKMARK [2][-]{subsection.2.5.4}{IMU}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.2.4}{Unidad de movimiento inercial \(IMU\)}{section.2.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Comunicaci\363n}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.3.1}{Celular directa: GPRS/GSM shield}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.2}{Celular indirecta: Bluetooth BLE shield}{section.2.3}% 24
+\BOOKMARK [1][-]{section.2.4}{Conclusiones}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.4.1}{Plataforma de desarrollo}{section.2.4}% 26
+\BOOKMARK [2][-]{subsection.2.4.2}{Electrocardiograma}{section.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.4.3}{Temperatura}{section.2.4}% 28
+\BOOKMARK [2][-]{subsection.2.4.4}{IMU}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.5}{Comunicaci\363n}{section.2.4}% 30
 \BOOKMARK [0][-]{chapter.3}{Selecci\363n del microcontrolador}{}% 31
 \BOOKMARK [1][-]{section.3.1}{ATMega328p}{chapter.3}% 32
 \BOOKMARK [1][-]{section.3.2}{ATMega2560}{chapter.3}% 33
