@@ -1,0 +1,37 @@
+
+Figura:
+---------------------------------------------------------------------
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{figuras/estadoarte/nuubo/shirt.png}
+\caption{nECG Shirt}
+\label{shirt}
+\end{figure}
+
+\ref{shirt}
+---------------------------------------------------------------------
+
+Lista
+---------------------------------------------------------------------
+\begin{enumerate}
+	\item \textbf{Alta disponibilidad:}
+\end{enumarate}
+---------------------------------------------------------------------
+
+Tabla
+---------------------------------------------------------------------
+\begin{table}[H]
+\centering
+\begin{tabular}{| c | c | c |}
+\hline
+\multicolumn{1}{|c|}{\textbf{Resistencia en reposo}}&
+\multicolumn{1}{c|}{\textbf{Resistencia en estiramiento}}&
+\multicolumn{1}{|c|}{\textbf{\% de variación)}}\\ \hline
+$4.7$  & $4.6$  & $0.0699$  \\ \hline
+$4.8$  & $4.7$ & $0.0722$ \\ \hline
+$4.7$ & $4.5$  & $0.1421$  \\ \hline
+\end{tabular}
+\caption{Valores resistencia Tela MedTex en Estomago}
+\label{tablatex3}
+\end{table}
+---------------------------------------------------------------------

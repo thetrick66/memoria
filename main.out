@@ -1,76 +1,80 @@
 \BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Memorias multidisciplinaria}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{Felipe Cordero}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{Vanessa Mu\361oz}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{Patricio Rodr\355guez}{section.1.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.4}{Sebasti\341n Castillo}{section.1.1}% 6
-\BOOKMARK [1][-]{section.1.2}{An\341lisis del desaf\355o}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{Estado del Arte}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.3.1}{ViSi Mobile\256}{section.1.3}% 9
-\BOOKMARK [2][-]{subsection.1.3.2}{Qardiocore}{section.1.3}% 10
-\BOOKMARK [2][-]{subsection.1.3.3}{Nuubo}{section.1.3}% 11
-\BOOKMARK [0][-]{chapter.2}{Alternativas de desarrollo}{}% 12
-\BOOKMARK [1][-]{section.2.1}{Plataforma de desarrollo}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.1.1}{Arduino}{section.2.1}% 14
-\BOOKMARK [2][-]{subsection.2.1.2}{Raspberry}{section.2.1}% 15
-\BOOKMARK [2][-]{subsection.2.1.3}{Beaglebone}{section.2.1}% 16
-\BOOKMARK [1][-]{section.2.2}{Sensores}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.1}{ECG}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.2}{Temperatura}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.3}{Ritmo Respiratorio}{section.2.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.4}{Unidad de movimiento inercial \(IMU\)}{section.2.2}% 21
-\BOOKMARK [1][-]{section.2.3}{Comunicaci\363n}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.3.1}{Celular directa: GPRS/GSM shield}{section.2.3}% 23
-\BOOKMARK [2][-]{subsection.2.3.2}{Celular indirecta: Bluetooth BLE shield}{section.2.3}% 24
-\BOOKMARK [1][-]{section.2.4}{Conclusiones}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.4.1}{Plataforma de desarrollo}{section.2.4}% 26
-\BOOKMARK [2][-]{subsection.2.4.2}{Electrocardiograma}{section.2.4}% 27
-\BOOKMARK [2][-]{subsection.2.4.3}{Temperatura}{section.2.4}% 28
-\BOOKMARK [2][-]{subsection.2.4.4}{IMU}{section.2.4}% 29
-\BOOKMARK [2][-]{subsection.2.4.5}{Comunicaci\363n}{section.2.4}% 30
-\BOOKMARK [0][-]{chapter.3}{Selecci\363n del microcontrolador}{}% 31
-\BOOKMARK [1][-]{section.3.1}{ATMega328p}{chapter.3}% 32
-\BOOKMARK [1][-]{section.3.2}{ATMega2560}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.3}{ATMega644PA}{chapter.3}% 34
-\BOOKMARK [1][-]{section.3.4}{Conclusiones}{chapter.3}% 35
-\BOOKMARK [0][-]{chapter.4}{Firmware y programaci\363n del microcontrolador}{}% 36
-\BOOKMARK [1][-]{section.4.1}{Bootloader}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.2}{ISP - In-System Programming}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.3}{Programaci\363n de un microcontrolador}{chapter.4}% 39
-\BOOKMARK [2][-]{subsection.4.3.1}{Programador ISP}{section.4.3}% 40
-\BOOKMARK [1][-]{section.4.4}{Programaci\363n USB}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.4.1}{FT232RL}{section.4.4}% 42
-\BOOKMARK [1][-]{section.4.5}{Programa en Arduino}{chapter.4}% 43
-\BOOKMARK [0][-]{chapter.5}{Dise\361o Electrocardiograma}{}% 44
-\BOOKMARK [1][-]{section.5.1}{DFRobot Heart Rate Monitor}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.2}{Biopac MP150 ECG100C}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.3}{AD8232}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.4}{Comparaci\363n entre Biopac y DFRobot}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.5}{Eliminando ruido de la fuente}{chapter.5}% 49
-\BOOKMARK [0][-]{chapter.6}{Dise\361o bluetooth}{}% 50
-\BOOKMARK [1][-]{section.6.1}{BLEBee}{chapter.6}% 51
-\BOOKMARK [1][-]{section.6.2}{Comunicaci\363n UART}{chapter.6}% 52
-\BOOKMARK [1][-]{section.6.3}{Dise\361o del m\363dulo bluetooth}{chapter.6}% 53
-\BOOKMARK [0][-]{chapter.7}{Dise\361o cargador de bater\355a }{}% 54
-\BOOKMARK [1][-]{section.7.1}{Cargador de bater\355a con corriente compartida con carga}{chapter.7}% 55
-\BOOKMARK [1][-]{section.7.2}{MCP73871}{chapter.7}% 56
-\BOOKMARK [2][-]{subsection.7.2.1}{Power Supply Input \(IN\)}{section.7.2}% 57
-\BOOKMARK [2][-]{subsection.7.2.2}{Input Source Type Selection \(SEL\)}{section.7.2}% 58
-\BOOKMARK [2][-]{subsection.7.2.3}{Regulaci\363n de carga r\341pida\(PROG1\)}{section.7.2}% 59
-\BOOKMARK [2][-]{subsection.7.2.4}{Corriente de t\351rmino de carga \(PROG3\)}{section.7.2}% 60
-\BOOKMARK [2][-]{subsection.7.2.5}{Salida de voltaje a la bater\355a VBAT y sensor de voltaje de bater\355a VSENSE}{section.7.2}% 61
-\BOOKMARK [2][-]{subsection.7.2.6}{Pines Generales}{section.7.2}% 62
-\BOOKMARK [2][-]{subsection.7.2.7}{Dise\361o del esquem\341tico}{section.7.2}% 63
-\BOOKMARK [0][-]{chapter.8}{Dise\361o final}{}% 64
-\BOOKMARK [1][-]{section.8.1}{Bot\363n ON/OFF}{chapter.8}% 65
-\BOOKMARK [1][-]{section.8.2}{Esquem\341tico}{chapter.8}% 66
-\BOOKMARK [2][-]{subsection.8.2.1}{Regulador de voltaje 3.3[V]}{section.8.2}% 67
-\BOOKMARK [2][-]{subsection.8.2.2}{Conector para sensores}{section.8.2}% 68
-\BOOKMARK [2][-]{subsection.8.2.3}{Pin header para prototipo}{section.8.2}% 69
-\BOOKMARK [0][-]{chapter.9}{Discusi\363n}{}% 70
-\BOOKMARK [1][-]{section.9.1}{Transformaci\363n de memoria multidisciplinaria a emprendimiento}{chapter.9}% 71
-\BOOKMARK [2][-]{subsection.9.1.1}{Entrevista a doctores en hospital de Quintero}{section.9.1}% 72
-\BOOKMARK [2][-]{subsection.9.1.2}{Pitch day selecconados - Marzo 2018}{section.9.1}% 73
-\BOOKMARK [1][-]{section.9.2}{Tareas Futuras}{chapter.9}% 74
-\BOOKMARK [0][-]{chapter.10}{Conclusiones}{}% 75
-\BOOKMARK [0][-]{chapter.11}{Anexos}{}% 76
+\BOOKMARK [1][-]{section.1.2}{Equipo}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Felipe Cordero}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Vanessa Mu\361oz}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Patricio Rodr\355guez}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Sebasti\341n Castillo}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Desaf\355o}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Estado del arte}{}% 9
+\BOOKMARK [1][-]{section.2.1}{ViSi Mobile\256}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Qardiocore\256}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Nuubo\256}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Arquitectura de la soluci\363n}{}% 13
+\BOOKMARK [1][-]{section.3.1}{DFRobot Heart Rate Monitor}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Biopac MP150 ECG100C}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{AD8232}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Comparaci\363n entre Biopac y DFRobot}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Eliminando ruido de la fuente}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Alternativas de desarrollo}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Cargador de bater\355a con corriente compartida con carga}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{MCP73871}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.2.1}{Power Supply Input \(IN\)}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.2}{Input Source Type Selection \(SEL\)}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.3}{Regulaci\363n de carga r\341pida\(PROG1\)}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.4}{Corriente de t\351rmino de carga \(PROG3\)}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.5}{Salida de voltaje a la bater\355a VBAT y sensor de voltaje de bater\355a VSENSE}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.6}{Pines Generales}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.7}{Dise\361o del esquem\341tico}{section.4.2}% 28
+\BOOKMARK [0][-]{chapter.5}{Sistema de telecomunicaciones}{}% 29
+\BOOKMARK [1][-]{section.5.1}{ATMega328p}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.2}{ATMega2560}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.3}{ATMega644PA}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.4}{Conclusiones}{chapter.5}% 33
+\BOOKMARK [0][-]{chapter.6}{Implementaci\363n de la soluci\363n de lado del servidor}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Bootloader}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.2}{ISP - In-System Programming}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.3}{Programaci\363n de un microcontrolador}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.3.1}{Programador ISP}{section.6.3}% 38
+\BOOKMARK [1][-]{section.6.4}{Programaci\363n USB}{chapter.6}% 39
+\BOOKMARK [2][-]{subsection.6.4.1}{FT232RL}{section.6.4}% 40
+\BOOKMARK [1][-]{section.6.5}{Programa en Arduino}{chapter.6}% 41
+\BOOKMARK [0][-]{chapter.7}{Implementaci\363n de la soluci\363n de lado del cliente Android}{}% 42
+\BOOKMARK [1][-]{section.7.1}{Bot\363n ON/OFF}{chapter.7}% 43
+\BOOKMARK [1][-]{section.7.2}{Esquem\341tico}{chapter.7}% 44
+\BOOKMARK [2][-]{subsection.7.2.1}{Regulador de voltaje 3.3[V]}{section.7.2}% 45
+\BOOKMARK [2][-]{subsection.7.2.2}{Conector para sensores}{section.7.2}% 46
+\BOOKMARK [2][-]{subsection.7.2.3}{Pin header para prototipo}{section.7.2}% 47
+\BOOKMARK [0][-]{chapter.8}{Configuraci\363n RN4020}{}% 48
+\BOOKMARK [0][-]{chapter.9}{Integraci\363n de las componentes de la soluci\363n}{}% 49
+\BOOKMARK [1][-]{section.9.1}{BLEBee}{chapter.9}% 50
+\BOOKMARK [1][-]{section.9.2}{Comunicaci\363n UART}{chapter.9}% 51
+\BOOKMARK [1][-]{section.9.3}{Dise\361o del m\363dulo bluetooth}{chapter.9}% 52
+\BOOKMARK [0][-]{chapter.10}{Prototipo funcional V1}{}% 53
+\BOOKMARK [0][-]{chapter.11}{Prototipo funcional V2}{}% 54
+\BOOKMARK [1][-]{section.11.1}{Transformaci\363n de memoria multidisciplinaria a emprendimiento}{chapter.11}% 55
+\BOOKMARK [2][-]{subsection.11.1.1}{Entrevista a doctores en hospital de Quintero}{section.11.1}% 56
+\BOOKMARK [2][-]{subsection.11.1.2}{Pitch day selecconados - Marzo 2018}{section.11.1}% 57
+\BOOKMARK [1][-]{section.11.2}{Tareas Futuras}{chapter.11}% 58
+\BOOKMARK [0][-]{chapter.12}{Prototipo final}{}% 59
+\BOOKMARK [1][-]{section.12.1}{Plataforma de desarrollo}{chapter.12}% 60
+\BOOKMARK [2][-]{subsection.12.1.1}{Arduino}{section.12.1}% 61
+\BOOKMARK [2][-]{subsection.12.1.2}{Raspberry}{section.12.1}% 62
+\BOOKMARK [2][-]{subsection.12.1.3}{Beaglebone}{section.12.1}% 63
+\BOOKMARK [1][-]{section.12.2}{Sensores}{chapter.12}% 64
+\BOOKMARK [2][-]{subsection.12.2.1}{ECG}{section.12.2}% 65
+\BOOKMARK [2][-]{subsection.12.2.2}{Temperatura}{section.12.2}% 66
+\BOOKMARK [2][-]{subsection.12.2.3}{Ritmo Respiratorio}{section.12.2}% 67
+\BOOKMARK [2][-]{subsection.12.2.4}{Unidad de movimiento inercial \(IMU\)}{section.12.2}% 68
+\BOOKMARK [1][-]{section.12.3}{Comunicaci\363n}{chapter.12}% 69
+\BOOKMARK [2][-]{subsection.12.3.1}{Celular directa: GPRS/GSM shield}{section.12.3}% 70
+\BOOKMARK [2][-]{subsection.12.3.2}{Celular indirecta: Bluetooth BLE shield}{section.12.3}% 71
+\BOOKMARK [1][-]{section.12.4}{Conclusiones}{chapter.12}% 72
+\BOOKMARK [2][-]{subsection.12.4.1}{Plataforma de desarrollo}{section.12.4}% 73
+\BOOKMARK [2][-]{subsection.12.4.2}{Electrocardiograma}{section.12.4}% 74
+\BOOKMARK [2][-]{subsection.12.4.3}{Temperatura}{section.12.4}% 75
+\BOOKMARK [2][-]{subsection.12.4.4}{IMU}{section.12.4}% 76
+\BOOKMARK [2][-]{subsection.12.4.5}{Comunicaci\363n}{section.12.4}% 77
+\BOOKMARK [0][-]{chapter.13}{Discusi\363n}{}% 78
+\BOOKMARK [0][-]{chapter.14}{Conclusi\363n}{}% 79
+\BOOKMARK [0][-]{chapter.15}{Anexos}{}% 80

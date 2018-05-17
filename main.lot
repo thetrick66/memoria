@@ -1,22 +1,26 @@
 \select@language {spanish}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Valores resistencia Tela MedTex en Pectorales}}{25}{table.2.1}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Valores resistencia Tela MedTex en Plexo}}{25}{table.2.2}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Valores resistencia Tela MedTex en Estomago}}{25}{table.2.3}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Comparativa tecnolog\IeC {\'\i }as / requerimientos}}{29}{table.2.4}
-\addvspace {10pt}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Comparaci\'on microcontroladores}}{38}{table.3.1}
-\addvspace {10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Programaci\'on ISP utilizando Arduino UNO}}{44}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Descripci\'on de pines chip FT232RL}}{45}{table.4.2}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Pines relevantes m\'odulo RN4020}}{57}{table.6.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Descripci\IeC {\'o}n de pines MCP73871}}{29}{table.4.1}
 \addvspace {10pt}
-\contentsline {table}{\numberline {7.1}{\ignorespaces Descripci\'on de pines MCP73871}}{62}{table.7.1}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Comparaci\IeC {\'o}n microcontroladores}}{37}{table.5.1}
+\addvspace {10pt}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Programaci\IeC {\'o}n ISP utilizando Arduino UNO}}{43}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Descripci\IeC {\'o}n de pines chip FT232RL}}{44}{table.6.2}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {9.1}{\ignorespaces Ranking de dolor Fabi\'an \'Alvarez}}{77}{table.9.1}
+\addvspace {10pt}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Pines relevantes m\IeC {\'o}dulo RN4020}}{68}{table.9.1}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {11.1}{\ignorespaces Ranking de dolor Fabi\IeC {\'a}n \IeC {\'A}lvarez}}{76}{table.11.1}
+\addvspace {10pt}
+\contentsline {table}{\numberline {12.1}{\ignorespaces Valores resistencia Tela MedTex en Pectorales}}{87}{table.12.1}
+\contentsline {table}{\numberline {12.2}{\ignorespaces Valores resistencia Tela MedTex en Plexo}}{87}{table.12.2}
+\contentsline {table}{\numberline {12.3}{\ignorespaces Valores resistencia Tela MedTex en Estomago}}{87}{table.12.3}
+\contentsline {table}{\numberline {12.4}{\ignorespaces Comparativa tecnolog\IeC {\'\i }as / requerimientos}}{91}{table.12.4}
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
