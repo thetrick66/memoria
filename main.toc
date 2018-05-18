@@ -1,88 +1,77 @@
 \select@language {spanish}
-\contentsline {chapter}{\numberline {1.}Introducci\IeC {\'o}n}{10}{chapter.1}
-\contentsline {section}{\numberline {1.1}Memorias multidisciplinaria}{10}{section.1.1}
-\contentsline {section}{\numberline {1.2}Equipo}{11}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Felipe Cordero}{11}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Vanessa Mu\IeC {\~n}oz}{11}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Patricio Rodr\IeC {\'\i }guez}{12}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Sebasti\IeC {\'a}n Castillo}{12}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Desaf\IeC {\'\i }o}{13}{section.1.3}
-\contentsline {chapter}{\numberline {2.}Estado del arte}{14}{chapter.2}
-\contentsline {section}{\numberline {2.1}ViSi Mobile\textregistered }{14}{section.2.1}
-\contentsline {section}{\numberline {2.2}Qardiocore\textregistered }{16}{section.2.2}
-\contentsline {section}{\numberline {2.3}Nuubo\textregistered }{17}{section.2.3}
-\contentsline {chapter}{\numberline {3.}Arquitectura de la soluci\IeC {\'o}n}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}DFRobot Heart Rate Monitor}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}Biopac MP150 ECG100C}{20}{section.3.2}
-\contentsline {section}{\numberline {3.3}AD8232}{22}{section.3.3}
-\contentsline {section}{\numberline {3.4}Comparaci\IeC {\'o}n entre Biopac y DFRobot}{24}{section.3.4}
-\contentsline {section}{\numberline {3.5}Eliminando ruido de la fuente}{25}{section.3.5}
-\contentsline {chapter}{\numberline {4.}Alternativas de desarrollo}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Cargador de bater\IeC {\'\i }a con corriente compartida con carga}{28}{section.4.1}
-\contentsline {section}{\numberline {4.2}MCP73871}{28}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Power Supply Input (IN)}{29}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Input Source Type Selection (SEL)}{29}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Regulaci\IeC {\'o}n de carga r\IeC {\'a}pida(PROG1)}{30}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Corriente de t\IeC {\'e}rmino de carga (PROG3)}{31}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Salida de voltaje a la bater\IeC {\'\i }a $V_{BAT}$ y sensor de voltaje de bater\IeC {\'\i }a $V_{SENSE}$}{31}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Pines Generales}{31}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Dise\IeC {\~n}o del esquem\IeC {\'a}tico}{31}{subsection.4.2.7}
-\contentsline {chapter}{\numberline {5.}Sistema de telecomunicaciones}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}ATMega328p}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}ATMega2560}{34}{section.5.2}
-\contentsline {section}{\numberline {5.3}ATMega644PA}{36}{section.5.3}
-\contentsline {section}{\numberline {5.4}Conclusiones}{37}{section.5.4}
-\contentsline {chapter}{\numberline {6.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del servidor}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}Bootloader}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}ISP - In-System Programming}{40}{section.6.2}
-\contentsline {section}{\numberline {6.3}Programaci\IeC {\'o}n de un microcontrolador}{41}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Programador ISP}{42}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Programaci\IeC {\'o}n USB}{43}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}FT232RL}{44}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Programa en Arduino}{46}{section.6.5}
-\contentsline {chapter}{\numberline {7.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del cliente Android}{47}{chapter.7}
-\contentsline {section}{\numberline {7.1}Bot\IeC {\'o}n ON/OFF}{47}{section.7.1}
-\contentsline {section}{\numberline {7.2}Esquem\IeC {\'a}tico}{50}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Regulador de voltaje 3.3[V]}{50}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Conector para sensores}{52}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Pin header para prototipo}{53}{subsection.7.2.3}
-\contentsline {chapter}{\numberline {8.}Configuraci\IeC {\'o}n RN4020}{54}{chapter.8}
-\contentsline {chapter}{\numberline {9.}Integraci\IeC {\'o}n de las componentes de la soluci\IeC {\'o}n}{67}{chapter.9}
-\contentsline {section}{\numberline {9.1}BLEBee}{67}{section.9.1}
-\contentsline {section}{\numberline {9.2}Comunicaci\IeC {\'o}n UART}{69}{section.9.2}
-\contentsline {section}{\numberline {9.3}Dise\IeC {\~n}o del m\IeC {\'o}dulo bluetooth}{69}{section.9.3}
-\contentsline {chapter}{\numberline {10.}Prototipo funcional V1}{71}{chapter.10}
-\contentsline {chapter}{\numberline {11.}Prototipo funcional V2}{72}{chapter.11}
-\contentsline {section}{\numberline {11.1}Transformaci\IeC {\'o}n de memoria multidisciplinaria a emprendimiento}{72}{section.11.1}
-\contentsline {subsection}{\numberline {11.1.1}Entrevista a doctores en hospital de Quintero}{75}{subsection.11.1.1}
-\contentsline {subsubsection}{Entrevista a Fabi\IeC {\'a}n \IeC {\'A}lvarez}{75}{section*.7}
-\contentsline {subsubsection}{Entrevista a Cristian Mondaca}{76}{section*.8}
-\contentsline {subsection}{\numberline {11.1.2}Pitch day selecconados - Marzo 2018}{77}{subsection.11.1.2}
-\contentsline {section}{\numberline {11.2}Tareas Futuras}{79}{section.11.2}
-\contentsline {chapter}{\numberline {12.}Prototipo final}{80}{chapter.12}
-\contentsline {section}{\numberline {12.1}Plataforma de desarrollo}{80}{section.12.1}
-\contentsline {subsection}{\numberline {12.1.1}Arduino}{81}{subsection.12.1.1}
-\contentsline {subsection}{\numberline {12.1.2}Raspberry}{81}{subsection.12.1.2}
-\contentsline {subsection}{\numberline {12.1.3}Beaglebone}{82}{subsection.12.1.3}
-\contentsline {section}{\numberline {12.2}Sensores}{83}{section.12.2}
-\contentsline {subsection}{\numberline {12.2.1}ECG}{83}{subsection.12.2.1}
-\contentsline {subsubsection}{DFRobot Heart Rate Monitor Sensor}{83}{section*.9}
-\contentsline {subsubsection}{ADS1298}{84}{section*.10}
-\contentsline {subsection}{\numberline {12.2.2}Temperatura}{84}{subsection.12.2.2}
-\contentsline {subsubsection}{Lilypad Temperature Sensor}{84}{section*.11}
-\contentsline {subsubsection}{DS18B20}{85}{section*.12}
-\contentsline {subsection}{\numberline {12.2.3}Ritmo Respiratorio}{86}{subsection.12.2.3}
-\contentsline {subsection}{\numberline {12.2.4}Unidad de movimiento inercial (IMU)}{87}{subsection.12.2.4}
-\contentsline {subsubsection}{MPU-9250}{88}{section*.13}
-\contentsline {section}{\numberline {12.3}Comunicaci\IeC {\'o}n}{89}{section.12.3}
-\contentsline {subsection}{\numberline {12.3.1}Celular directa: GPRS/GSM shield}{92}{subsection.12.3.1}
-\contentsline {subsection}{\numberline {12.3.2}Celular indirecta: Bluetooth BLE shield}{93}{subsection.12.3.2}
-\contentsline {section}{\numberline {12.4}Conclusiones}{94}{section.12.4}
-\contentsline {subsection}{\numberline {12.4.1}Plataforma de desarrollo}{94}{subsection.12.4.1}
-\contentsline {subsection}{\numberline {12.4.2}Electrocardiograma}{94}{subsection.12.4.2}
-\contentsline {subsection}{\numberline {12.4.3}Temperatura}{94}{subsection.12.4.3}
-\contentsline {subsection}{\numberline {12.4.4}IMU}{95}{subsection.12.4.4}
-\contentsline {subsection}{\numberline {12.4.5}Comunicaci\IeC {\'o}n}{95}{subsection.12.4.5}
-\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{96}{chapter.13}
-\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{97}{chapter.14}
-\contentsline {chapter}{\numberline {15.}Anexos}{98}{chapter.15}
+\contentsline {chapter}{\numberline {1.}Introducci\IeC {\'o}n}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Memorias multidisciplinaria}{8}{section.1.1}
+\contentsline {section}{\numberline {1.2}Equipo}{9}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Felipe Cordero}{9}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Vanessa Mu\IeC {\~n}oz}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Patricio Rodr\IeC {\'\i }guez}{10}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Sebasti\IeC {\'a}n Castillo}{10}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Desaf\IeC {\'\i }o}{11}{section.1.3}
+\contentsline {chapter}{\numberline {2.}Estado del arte}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}ViSi Mobile\textregistered }{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Qardiocore\textregistered }{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Nuubo\textregistered }{15}{section.2.3}
+\contentsline {chapter}{\numberline {3.}Arquitectura de la soluci\IeC {\'o}n}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Adquisici\IeC {\'o}n de datos}{18}{section.3.1}
+\contentsline {section}{\numberline {3.2}Comunicaci\IeC {\'o}n}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Servicio web}{20}{section.3.3}
+\contentsline {chapter}{\numberline {4.}Alternativas de desarrollo}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Plataforma de desarrollo}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Arduino}{22}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Raspberry}{22}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Beaglebone}{23}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Sensores}{24}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}ECG}{24}{subsection.4.2.1}
+\contentsline {subsubsection}{DFRobot Heart Rate Monitor Sensor}{24}{section*.7}
+\contentsline {subsubsection}{ADS1298}{25}{section*.8}
+\contentsline {subsection}{\numberline {4.2.2}Temperatura}{25}{subsection.4.2.2}
+\contentsline {subsubsection}{Lilypad Temperature Sensor}{25}{section*.9}
+\contentsline {subsubsection}{DS18B20}{26}{section*.10}
+\contentsline {subsection}{\numberline {4.2.3}Ritmo Respiratorio}{27}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Unidad de movimiento inercial (IMU)}{28}{subsection.4.2.4}
+\contentsline {subsubsection}{MPU-9250}{29}{section*.11}
+\contentsline {section}{\numberline {4.3}Comunicaci\IeC {\'o}n}{30}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Celular directa: GPRS/GSM shield}{33}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Celular indirecta: Bluetooth BLE shield}{34}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Conclusiones}{35}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Plataforma de desarrollo}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Electrocardiograma}{35}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Temperatura}{35}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}IMU}{36}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Comunicaci\IeC {\'o}n}{36}{subsection.4.4.5}
+\contentsline {chapter}{\numberline {5.}Sistema de telecomunicaciones}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}ATMega328p}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}ATMega2560}{38}{section.5.2}
+\contentsline {section}{\numberline {5.3}ATMega644PA}{40}{section.5.3}
+\contentsline {section}{\numberline {5.4}Conclusiones}{41}{section.5.4}
+\contentsline {chapter}{\numberline {6.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del servidor}{43}{chapter.6}
+\contentsline {section}{\numberline {6.1}Bootloader}{43}{section.6.1}
+\contentsline {section}{\numberline {6.2}ISP - In-System Programming}{44}{section.6.2}
+\contentsline {section}{\numberline {6.3}Programaci\IeC {\'o}n de un microcontrolador}{45}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Programador ISP}{46}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Programaci\IeC {\'o}n USB}{47}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}FT232RL}{48}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Programa en Arduino}{50}{section.6.5}
+\contentsline {chapter}{\numberline {7.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del cliente Android}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}Bot\IeC {\'o}n ON/OFF}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}Esquem\IeC {\'a}tico}{54}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Regulador de voltaje 3.3[V]}{54}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Conector para sensores}{56}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Pin header para prototipo}{57}{subsection.7.2.3}
+\contentsline {chapter}{\numberline {8.}Configuraci\IeC {\'o}n RN4020}{58}{chapter.8}
+\contentsline {chapter}{\numberline {9.}Integraci\IeC {\'o}n de las componentes de la soluci\IeC {\'o}n}{59}{chapter.9}
+\contentsline {section}{\numberline {9.1}BLEBee}{59}{section.9.1}
+\contentsline {section}{\numberline {9.2}Comunicaci\IeC {\'o}n UART}{61}{section.9.2}
+\contentsline {section}{\numberline {9.3}Dise\IeC {\~n}o del m\IeC {\'o}dulo bluetooth}{61}{section.9.3}
+\contentsline {chapter}{\numberline {10.}Prototipo funcional V1}{63}{chapter.10}
+\contentsline {chapter}{\numberline {11.}Prototipo funcional V2}{64}{chapter.11}
+\contentsline {section}{\numberline {11.1}Transformaci\IeC {\'o}n de memoria multidisciplinaria a emprendimiento}{64}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Entrevista a doctores en hospital de Quintero}{67}{subsection.11.1.1}
+\contentsline {subsubsection}{Entrevista a Fabi\IeC {\'a}n \IeC {\'A}lvarez}{67}{section*.12}
+\contentsline {subsubsection}{Entrevista a Cristian Mondaca}{68}{section*.13}
+\contentsline {subsection}{\numberline {11.1.2}Pitch day selecconados - Marzo 2018}{69}{subsection.11.1.2}
+\contentsline {section}{\numberline {11.2}Tareas Futuras}{71}{section.11.2}
+\contentsline {chapter}{\numberline {12.}Prototipo final}{72}{chapter.12}
+\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{73}{chapter.13}
+\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{74}{chapter.14}
+\contentsline {chapter}{\numberline {15.}Anexos}{75}{chapter.15}
