@@ -1,6 +1,6 @@
 \chapter{Arquitectura de la solución}\label{arquitectura}
 
-Luego de analizar las necesidades del proyecto y el estado actual de la industria frente al desafío, el siguiente paso es establecer una arquitectura base con la cual definir las partes más relevantes del sistema. En la figura \ref{arqui} se pueden apreciar las 3 secciones relevantes y detalladas en las siguientes secciones.
+Luego de analizar las necesidades del proyecto y el estado actual de la industria frente al desafío, el siguiente paso es establecer una arquitectura base con la cual definir las partes más relevantes del sistema. En la figura \ref{arqui} se pueden apreciar las 3 secciones relevantes y detalladas en las siguientes secciones. Es importante destacar que es transversal la necesidad de herramientas que permitan un rápido despliegue, con el fin de generar pruebas constantemente.
 
 \begin{figure}[H]
 	\centering
@@ -24,8 +24,26 @@ Una primera necesidad del proyecto es la obtención y procesamiento de los datos
 
 \newpage
 \section{Comunicación}
-En el apartado 
+Dado los requerimientos del proyecto, como lo son las restricciones geográficas que impone Chile y un dispositivo de bajo costo, es necesario contemplar alternativas que no impliquen demasiada infraestructura (o que hagan uso de infraestructura ya disponible) y que además posean la penetración (o el potencial) necesaria dado el territorio nacional. Dentro de las características relevantes en este apartado, podemos encontrar:
+
+\begin{enumerate}
+	\item \textbf{Gran cobertura:}
+	Considerando la envergadura inicial del proyecto, Chile, es de vital importancia que la tecnología a utilizar permita generar conexiones en la mayor parte del territorio nacional.
+	\item \textbf{Alta disponibilidad:}
+	Se requiere que la tecnología a emplear permita establecer conexiones a lo largo del tiempo, presentando pocas o de preferencia nulas desconexiones o incapacidades de conexión.
+	\item \textbf{Escalabilidad:}
+	Si bien es un aspecto dependiente de los anteriores requerimientos, es relevante considerarlo por separado como la medida que representa la capacidad de atender una gran cantidad de conexiones.
+\end{enumerate}
 
 \newpage
 \section{Servicio web}
+El sistema completo requiere además de los puntos anteriores, de un servicio web acorde con las necesidades del proyecto. El cual le de soporte y lo dote de mayores prestaciones, completando así un ecosistema completo en función del desafío. Entre los puntos más relevantes de este apartado se consideran:
 
+\begin{enumerate}
+	\item \textbf{Baja latencia:}
+	Este proyecto se desarrolla en un marco con pacientes y posibles estados críticos de los mismos, es por ello que el tiempo de respuesta es fundamental en el servicio que se pretende ofrecer.
+	\item \textbf{Alta concurrencia}
+	Actualmente es común que las conexiones a servicios web tengan una alta demanda y larga duración, aumentando la concurrencia notablemente. Lo anterior es lo que se espera de un monitoreo, el cual debe ser constante en el tiempo (o al menos en una cierta ventana).
+	\item \textbf{Seguridad:}
+	Los datos que utilizará el sistema son totalmente privados y la protección de estos junto con los datos de conexión son un eje fundamental en la elección de tecnología a emplear, o en su defecto usar capas de seguridad anexas para brindar esta funcionalidad que se considera base.
+\end{enumerate}

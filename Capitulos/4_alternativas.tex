@@ -220,7 +220,7 @@ Luego de caracterizar las distintas tecnologías disponibles para su uso en el p
 	\label{tablacompara_telecomunicaciones}
 \end{table}
 
-A raíz de lo anterior se destaca el uso de tecnologías con redes celulares por su lineamiento con el proyecto. La tecnología Wi-Fi se descarta por ser de baja cobertura (pensando a nivel nacional) y esto a su vez ser un ámbito crítico para el proyecto. A continuación se presentan alternativas para la plataforma Arduino en torno a las tecnologías ya mencionadas.
+A raíz de lo anterior se destaca el uso de tecnologías con redes celulares por su lineamiento con el proyecto. La tecnología Wi-Fi se descarta por ser de baja cobertura (en una primera instancia y pensando a nivel nacional) y esto a su vez ser un ámbito crítico para el proyecto. A continuación se presentan alternativas para la plataforma Arduino en torno a las tecnologías ya mencionadas.
 
 \subsection{Celular directa: GPRS/GSM shield}
 Para integrar conexión a redes celulares en el dispositivo es necesario considerar un GPRS shield compatible con socket xbee.\\ GPRSBee cumple con los requerimientos a un precio no menor (aproximadamente 36.000 CLP). 
@@ -266,12 +266,14 @@ Para la plataforma de desarrollo se va a escoger trabajar con Arduino ya que est
 \subsection{Electrocardiograma}
 Para el sensor de electrocardiograma se utilizará el monitor de actividad cardíaca de DFRobot, esto debido a que es la única opción que se puede conseguir en el país para no retrasar el desarrollo. Este sensor es de muy bajo costo (alrededor de 19.500 CLP en MCIElectronics).
 El integrado ADS1298 es una buena opción como una mejora para una segunda iteración del diseño para mejorar la señal que se puede obtener debido a que este posee mayor tolerancia al ruido. Se debe destacar esta última opción debido a que se debe encargar directamente desde Texas Instruments y esto puede tomar mucho tiempo.
+
+\newpage
 \subsection{Temperatura}
 En primera instancia se va a utilizar el sensor Lilypad ya que este está diseñado específicamente para wearables además de que utiliza un hilo conductor para unir sus terminales con la alimentación y la toma de datos. Este sensor tiene un valor aproximado de 3.790 CLP.\\
 Dependiendo de los resultados obtenidos en la primeras pruebas se va a evaluar la segunda alternativa de utilizar el DS18B20 el cual tiene un valor aproximado de 5.900 CLP.
 \subsection{IMU}
 Al buscar las alternativas que existen en el país, todas las opciones de desarrollo usan distintas placas de desarrollo pero utilizan el mismo sensor MPU-9250 por lo que se va a utilizar la placa de Sparkfun MPU-9250 luego de tener el prototipo funcional con los primeros sensores de electrocardiograma y temperatura. Esta placa de desarrollo tiene un valor aproximado de 12.500 CLP.
 \subsection{Comunicación}
-Entre las alternativas mencionadas, se opta por utilizar en primera instancia el GPRS shield, el cual posee un costo aproximado de 43.980 CLP.
+Entre las alternativas mencionadas, se opta por utilizar en primera instancia el GPRS/GSM shield, el cual posee un costo aproximado de 43.980 CLP.
 Cabe mencionar que en una segunda instancia se utilizaría el chip RN4020, el cual posee un precio aproximado de 20.000 CLP.\\
-Si bien el costo es menor, es relevante la complejidad que agrega la segunda opción (al agregar un actor como lo puede ser un teléfono inteligente), es este criterio el que nos lleva a priorizar de esta forma la elección en este punto.
+Si bien el costo es menor, es relevante la complejidad que agrega la segunda opción (al agregar un actor como lo puede ser un teléfono inteligente). Aunque la flexibilidad que brinda esta segunda opción y ciertos aspectos de la primera son las que obligan este cambio.
