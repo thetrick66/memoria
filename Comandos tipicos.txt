@@ -1,9 +1,12 @@
+\textit{Cursiva}
+\textbf{Negrita}
+\underline{Eso mismo}
 
 Figura:
 ---------------------------------------------------------------------
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{figuras/estadoarte/nuubo/shirt.png}
+\includegraphics[scale=0.6]{figuras/estadoarte/shirt.png}
 \caption{nECG Shirt}
 \label{shirt}
 \end{figure}
@@ -13,9 +16,9 @@ Figura:
 
 Lista
 ---------------------------------------------------------------------
-\begin{enumerate}
-	\item \textbf{Alta disponibilidad:}
-\end{enumarate}
+\begin{enumerate}[]\centering
+	\item \textbf{Bajo costo}
+\end{enumerate}
 ---------------------------------------------------------------------
 
 Tabla
