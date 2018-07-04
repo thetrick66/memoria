@@ -1,5 +1,28 @@
-% ---------------------------------------------------------------------------------------
 \chapter{Integración de las componentes de la solución}\label{mldp}
 
+\section{MLDP RN4020}
 
+El concepto de MLDP (Microchip Low-energy Data Profile) propuesto por MicroChip no se refiere a otra cosa que a un servicio GATT, como cualquier otro, pero con la capacidad de comunicarse directamente entre RF y el UART del dispositivo BLE, sin la necesidad de pasar por peticiones a través del microcontrolador.
+
+Este servicio construido sobre GATT, corresponde a un servicio privado con la finalidad de simular la operación clásica de un perfil de puerto serial Bluetooth (SPP).
+
+El rendimiento depende en gran medida de los ditintos parámetros de conexión, como los asociados a la frecuencia de la comunicación entre el dispositivo central y periférico. Un mayor rendimiento requiere una mayor frecuencia y por ende un mayor consumo energético, acortando así la carga de la batería del dispositivo. Por esta razón es que dependiendo de la aplicación, es imperante un balance correcto de estas características en la comunicación.
+
+Para hacer uso de este recurso, se debe habilitar el bit asociado usando el comando SR,10000000. Una vez ya habilitado, se deben especificar los parámetros de conexión y establecer un enlace activo entre un dispositivo central y otro periférico. Luego de esto, todos los datos de entrada provenientes del módulo UART del RN4020 son enviados al otro dispositivo como un flujo de datos.
+
+The first item is an example code for working with the module and MLDP from android, it uses Bluetooth GATT clases which was implemented from Android 4.3 (API 18)
+
+\section{Implementación de código ejemplo en Android}
+
+Se hace uso de código de ejemplo provisto por la página oficial del módulo Bluetooth RN4020 de MicroChip \cite{RN4020_code} con el fin de estudiar las clases empleadas y su uso. A partir del estudio de este ejemplo se establecen las bases necesarias para comunicarse con el chip RN4020 de la forma deseada, destacando el uso de Android 4.3 (API 18) o superior por poseer la incorporación de perfiles bluetooth para la versión 4.0 (Low Energy). 
+
+
+\section{Arduino actuando de servidor con RN4020}
+
+Para el correcto funcionamiento del chip RN4020 con el perfil privado a emplear y sus parámetros de conexión se hace uso de la librería SoftwareSerial, la cual ofrece la comunicación de transmisión y recepción entre la placa Arduino el chip en cuestión.
+Además de lo anterior, se hace uso de dos librerías para el manejo del sensor de temperatura (con el cual se realizan pruebas preliminares): OneWire y DallasTemperature, las cuales ofrecen una interfaz limpia para el manejo de los datos otorgados por el sensor.
+
+Se prueban instrucciones base como Baudios, parámetros de conexión, características de seguridad, tipo de perfil, servicios o características, entre otros.
+
+Por último, se analizan distintas combinaciones de configuración según los requerimientos, dentro del área de seguridad, velocidad, potencia de transmisión y servicios entregados.
 

@@ -49,11 +49,18 @@
 \BOOKMARK [1][-]{section.6.5}{Nginx}{chapter.6}% 49
 \BOOKMARK [1][-]{section.6.6}{DNS No-IP}{chapter.6}% 50
 \BOOKMARK [0][-]{chapter.7}{Implementaci\363n de la soluci\363n de lado del cliente Android}{}% 51
-\BOOKMARK [0][-]{chapter.8}{Configuraci\363n RN4020}{}% 52
-\BOOKMARK [0][-]{chapter.9}{Integraci\363n de las componentes de la soluci\363n}{}% 53
-\BOOKMARK [0][-]{chapter.10}{Prototipo funcional V1}{}% 54
-\BOOKMARK [0][-]{chapter.11}{Prototipo funcional V2}{}% 55
-\BOOKMARK [0][-]{chapter.12}{Prototipo final}{}% 56
-\BOOKMARK [0][-]{chapter.13}{Discusi\363n}{}% 57
-\BOOKMARK [0][-]{chapter.14}{Conclusi\363n}{}% 58
-\BOOKMARK [0][-]{chapter.15}{Anexos}{}% 59
+\BOOKMARK [1][-]{section.7.1}{Servicios en Android}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.2}{Implementaci\363n de servicios y su comunicaci\363n en Android en funci\363n de los requerimientos del proyecto}{chapter.7}% 53
+\BOOKMARK [0][-]{chapter.8}{Configuraci\363n RN4020}{}% 54
+\BOOKMARK [1][-]{section.8.1}{BLE \(Bluetooth 4.0\)}{chapter.8}% 55
+\BOOKMARK [1][-]{section.8.2}{Caracter\355sticas disponibles y selecci\363n, autoconexi\363n Bluetooth \(desde Android\)}{chapter.8}% 56
+\BOOKMARK [0][-]{chapter.9}{Integraci\363n de las componentes de la soluci\363n}{}% 57
+\BOOKMARK [1][-]{section.9.1}{MLDP RN4020}{chapter.9}% 58
+\BOOKMARK [1][-]{section.9.2}{Implementaci\363n de c\363digo ejemplo en Android}{chapter.9}% 59
+\BOOKMARK [1][-]{section.9.3}{Arduino actuando de servidor con RN4020}{chapter.9}% 60
+\BOOKMARK [0][-]{chapter.10}{Prototipo funcional V1}{}% 61
+\BOOKMARK [0][-]{chapter.11}{Prototipo funcional V2}{}% 62
+\BOOKMARK [0][-]{chapter.12}{Prototipo final}{}% 63
+\BOOKMARK [0][-]{chapter.13}{Discusi\363n}{}% 64
+\BOOKMARK [0][-]{chapter.14}{Conclusi\363n}{}% 65
+\BOOKMARK [0][-]{chapter.15}{Anexos}{}% 66
