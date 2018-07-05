@@ -1,72 +1,91 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1.}Introducci\IeC {\'o}n}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Memorias multidisciplinaria}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Equipo}{8}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Felipe Cordero}{8}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Vanessa Mu\IeC {\~n}oz}{8}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Patricio Rodr\IeC {\'\i }guez}{9}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Sebasti\IeC {\'a}n Castillo}{9}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Desaf\IeC {\'\i }o}{10}{section.1.3}
-\contentsline {chapter}{\numberline {2.}Estado del arte}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}ViSi Mobile\textregistered }{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Qardiocore\textregistered }{13}{section.2.2}
-\contentsline {section}{\numberline {2.3}Nuubo\textregistered }{14}{section.2.3}
-\contentsline {chapter}{\numberline {3.}Arquitectura de la soluci\IeC {\'o}n}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Adquisici\IeC {\'o}n de datos}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Comunicaci\IeC {\'o}n}{18}{section.3.2}
-\contentsline {section}{\numberline {3.3}Servicio web}{19}{section.3.3}
-\contentsline {chapter}{\numberline {4.}Alternativas de desarrollo}{20}{chapter.4}
-\contentsline {section}{\numberline {4.1}Plataforma de desarrollo}{20}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Arduino}{21}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Raspberry}{21}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Beaglebone}{22}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Sensores}{23}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}ECG}{23}{subsection.4.2.1}
-\contentsline {subsubsection}{DFRobot Heart Rate Monitor Sensor}{23}{section*.7}
-\contentsline {subsubsection}{ADS1298}{24}{section*.8}
-\contentsline {subsection}{\numberline {4.2.2}Temperatura}{24}{subsection.4.2.2}
-\contentsline {subsubsection}{Lilypad Temperature Sensor}{24}{section*.9}
-\contentsline {subsubsection}{DS18B20}{25}{section*.10}
-\contentsline {subsection}{\numberline {4.2.3}Ritmo Respiratorio}{26}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Unidad de movimiento inercial (IMU)}{27}{subsection.4.2.4}
-\contentsline {subsubsection}{MPU-9250}{28}{section*.11}
-\contentsline {section}{\numberline {4.3}Comunicaci\IeC {\'o}n}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Celular directa: GPRS/GSM shield}{32}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Celular indirecta: Bluetooth BLE shield}{33}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Conclusiones}{34}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Plataforma de desarrollo}{34}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Electrocardiograma}{34}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Temperatura}{35}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}IMU}{35}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Comunicaci\IeC {\'o}n}{35}{subsection.4.4.5}
-\contentsline {chapter}{\numberline {5.}Sistema de telecomunicaciones}{36}{chapter.5}
-\contentsline {section}{\numberline {5.1}Redes m\IeC {\'o}viles, Bluetooth y Android}{36}{section.5.1}
-\contentsline {section}{\numberline {5.2}Perfiles Bluetooth}{38}{section.5.2}
-\contentsline {section}{\numberline {5.3}Razones para Android}{39}{section.5.3}
-\contentsline {section}{\numberline {5.4}Comparativa desarrollo h\IeC {\'\i }brido}{40}{section.5.4}
-\contentsline {section}{\numberline {5.5}Prueba de concepto}{42}{section.5.5}
-\contentsline {chapter}{\numberline {6.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del servidor}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Requerimientos}{43}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Tipos de alojamiento Web}{43}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Requerimientos del proyecto}{45}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Hosting VPS}{46}{section.6.2}
-\contentsline {section}{\numberline {6.3}Servidor Tornado}{48}{section.6.3}
-\contentsline {section}{\numberline {6.4}MongoDB}{48}{section.6.4}
-\contentsline {section}{\numberline {6.5}Nginx}{48}{section.6.5}
-\contentsline {section}{\numberline {6.6}DNS No-IP}{48}{section.6.6}
-\contentsline {chapter}{\numberline {7.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del cliente Android}{49}{chapter.7}
-\contentsline {section}{\numberline {7.1}Servicios en Android}{49}{section.7.1}
-\contentsline {section}{\numberline {7.2}Implementaci\IeC {\'o}n de servicios y su comunicaci\IeC {\'o}n en Android en funci\IeC {\'o}n de los requerimientos del proyecto}{50}{section.7.2}
-\contentsline {chapter}{\numberline {8.}Configuraci\IeC {\'o}n RN4020}{51}{chapter.8}
-\contentsline {section}{\numberline {8.1}BLE (Bluetooth 4.0)}{51}{section.8.1}
-\contentsline {section}{\numberline {8.2}Caracter\IeC {\'\i }sticas disponibles y selecci\IeC {\'o}n, autoconexi\IeC {\'o}n Bluetooth (desde Android)}{57}{section.8.2}
-\contentsline {chapter}{\numberline {9.}Integraci\IeC {\'o}n de las componentes de la soluci\IeC {\'o}n}{58}{chapter.9}
-\contentsline {section}{\numberline {9.1}MLDP RN4020}{58}{section.9.1}
-\contentsline {section}{\numberline {9.2}Implementaci\IeC {\'o}n de c\IeC {\'o}digo ejemplo en Android}{59}{section.9.2}
-\contentsline {section}{\numberline {9.3}Arduino actuando de servidor con RN4020}{59}{section.9.3}
-\contentsline {chapter}{\numberline {10.}Prototipo funcional V1}{60}{chapter.10}
-\contentsline {chapter}{\numberline {11.}Prototipo funcional V2}{61}{chapter.11}
-\contentsline {chapter}{\numberline {12.}Prototipo final}{62}{chapter.12}
-\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{63}{chapter.13}
-\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{64}{chapter.14}
-\contentsline {chapter}{\numberline {15.}Anexos}{65}{chapter.15}
+\contentsline {chapter}{\numberline {1.}Introducci\IeC {\'o}n}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Memorias multidisciplinaria}{8}{section.1.1}
+\contentsline {section}{\numberline {1.2}Equipo}{9}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Felipe Cordero}{9}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Vanessa Mu\IeC {\~n}oz}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Patricio Rodr\IeC {\'\i }guez}{10}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Sebasti\IeC {\'a}n Castillo}{10}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Desaf\IeC {\'\i }o}{11}{section.1.3}
+\contentsline {chapter}{\numberline {2.}Estado del arte}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}ViSi Mobile\textregistered }{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Qardiocore\textregistered }{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Nuubo\textregistered }{15}{section.2.3}
+\contentsline {chapter}{\numberline {3.}Arquitectura de la soluci\IeC {\'o}n}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Adquisici\IeC {\'o}n de datos}{18}{section.3.1}
+\contentsline {section}{\numberline {3.2}Comunicaci\IeC {\'o}n}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Servicio web}{20}{section.3.3}
+\contentsline {chapter}{\numberline {4.}Alternativas de desarrollo}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Plataforma de desarrollo}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Arduino}{22}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Raspberry}{22}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Beaglebone}{23}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Sensores}{24}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}ECG}{24}{subsection.4.2.1}
+\contentsline {subsubsection}{DFRobot Heart Rate Monitor Sensor}{24}{section*.7}
+\contentsline {subsubsection}{ADS1298}{25}{section*.8}
+\contentsline {subsection}{\numberline {4.2.2}Temperatura}{25}{subsection.4.2.2}
+\contentsline {subsubsection}{Lilypad Temperature Sensor}{25}{section*.9}
+\contentsline {subsubsection}{DS18B20}{26}{section*.10}
+\contentsline {subsection}{\numberline {4.2.3}Ritmo Respiratorio}{27}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Unidad de movimiento inercial (IMU)}{28}{subsection.4.2.4}
+\contentsline {subsubsection}{MPU-9250}{29}{section*.11}
+\contentsline {section}{\numberline {4.3}Comunicaci\IeC {\'o}n}{30}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Celular directa: GPRS/GSM shield}{33}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Celular indirecta: Bluetooth BLE shield}{34}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Conclusiones}{35}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Plataforma de desarrollo}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Electrocardiograma}{35}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Temperatura}{36}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}IMU}{36}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Comunicaci\IeC {\'o}n}{36}{subsection.4.4.5}
+\contentsline {chapter}{\numberline {5.}Sistema de telecomunicaciones}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Redes m\IeC {\'o}viles, Bluetooth y Android}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Perfiles Bluetooth}{39}{section.5.2}
+\contentsline {section}{\numberline {5.3}Razones para Android}{40}{section.5.3}
+\contentsline {section}{\numberline {5.4}Comparativa desarrollo h\IeC {\'\i }brido}{41}{section.5.4}
+\contentsline {section}{\numberline {5.5}Prueba de concepto}{43}{section.5.5}
+\contentsline {chapter}{\numberline {6.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del servidor}{44}{chapter.6}
+\contentsline {section}{\numberline {6.1}Requerimientos}{44}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Tipos de alojamiento Web}{44}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Requerimientos del proyecto}{46}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Hosting VPS}{47}{section.6.2}
+\contentsline {section}{\numberline {6.3}Servidor Tornado}{49}{section.6.3}
+\contentsline {section}{\numberline {6.4}MongoDB}{49}{section.6.4}
+\contentsline {section}{\numberline {6.5}Nginx}{49}{section.6.5}
+\contentsline {section}{\numberline {6.6}DNS No-IP}{49}{section.6.6}
+\contentsline {chapter}{\numberline {7.}Implementaci\IeC {\'o}n de la soluci\IeC {\'o}n de lado del cliente Android}{50}{chapter.7}
+\contentsline {section}{\numberline {7.1}Servicios en Android}{50}{section.7.1}
+\contentsline {section}{\numberline {7.2}Implementaci\IeC {\'o}n de servicios y su comunicaci\IeC {\'o}n en Android en funci\IeC {\'o}n de los requerimientos del proyecto}{51}{section.7.2}
+\contentsline {chapter}{\numberline {8.}Configuraci\IeC {\'o}n RN4020}{52}{chapter.8}
+\contentsline {section}{\numberline {8.1}BLE (Bluetooth 4.0)}{52}{section.8.1}
+\contentsline {section}{\numberline {8.2}Caracter\IeC {\'\i }sticas disponibles y selecci\IeC {\'o}n, autoconexi\IeC {\'o}n Bluetooth (desde Android)}{58}{section.8.2}
+\contentsline {chapter}{\numberline {9.}Integraci\IeC {\'o}n de las componentes de la soluci\IeC {\'o}n}{59}{chapter.9}
+\contentsline {section}{\numberline {9.1}MLDP RN4020}{59}{section.9.1}
+\contentsline {section}{\numberline {9.2}Implementaci\IeC {\'o}n de c\IeC {\'o}digo ejemplo en Android}{60}{section.9.2}
+\contentsline {section}{\numberline {9.3}Arduino actuando de servidor con RN4020}{60}{section.9.3}
+\contentsline {chapter}{\numberline {10.}Prototipo funcional V1}{61}{chapter.10}
+\contentsline {section}{\numberline {10.1}Configuraci\IeC {\'o}n final RN4020}{61}{section.10.1}
+\contentsline {section}{\numberline {10.2}An\IeC {\'a}lisis de rendimiento por codificaci\IeC {\'o}n }{62}{section.10.2}
+\contentsline {section}{\numberline {10.3}Elementos en Android}{63}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}RecyclerView}{64}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}C\IeC {\'o}digos QR}{65}{subsection.10.3.2}
+\contentsline {subsection}{\numberline {10.3.3}Fragment}{66}{subsection.10.3.3}
+\contentsline {subsection}{\numberline {10.3.4}MPAndroidChart}{67}{subsection.10.3.4}
+\contentsline {subsection}{\numberline {10.3.5}Shared Preference}{68}{subsection.10.3.5}
+\contentsline {subsection}{\numberline {10.3.6}Inicio autom\IeC {\'a}tico de Servicio y otros}{68}{subsection.10.3.6}
+\contentsline {chapter}{\numberline {11.}Prototipo funcional V2}{69}{chapter.11}
+\contentsline {section}{\numberline {11.1}Control de sensores por Android}{69}{section.11.1}
+\contentsline {section}{\numberline {11.2}Renovaci\IeC {\'o}n de servidor Arduino}{69}{section.11.2}
+\contentsline {section}{\numberline {11.3}An\IeC {\'a}lisis de frecuencia y resoluci\IeC {\'o}n para ECG}{69}{section.11.3}
+\contentsline {section}{\numberline {11.4}Base de datos local (comparativa Realm, SQLite) }{69}{section.11.4}
+\contentsline {section}{\numberline {11.5}Modelo tentativo para Realm}{69}{section.11.5}
+\contentsline {chapter}{\numberline {12.}Prototipo final}{70}{chapter.12}
+\contentsline {section}{\numberline {12.1}Paquetes de control Bluetooth}{70}{section.12.1}
+\contentsline {section}{\numberline {12.2}Conteo para retransmisi\IeC {\'o}n}{70}{section.12.2}
+\contentsline {section}{\numberline {12.3}Implementaci\IeC {\'o}n de Realm}{70}{section.12.3}
+\contentsline {section}{\numberline {12.4}Servicio web}{70}{section.12.4}
+\contentsline {section}{\numberline {12.5}Selecci\IeC {\'o}n de usuario, tipo de cuentas}{70}{section.12.5}
+\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{71}{chapter.13}
+\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{72}{chapter.14}
+\contentsline {chapter}{\numberline {15.}Anexos}{73}{chapter.15}

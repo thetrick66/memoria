@@ -59,8 +59,27 @@
 \BOOKMARK [1][-]{section.9.2}{Implementaci\363n de c\363digo ejemplo en Android}{chapter.9}% 59
 \BOOKMARK [1][-]{section.9.3}{Arduino actuando de servidor con RN4020}{chapter.9}% 60
 \BOOKMARK [0][-]{chapter.10}{Prototipo funcional V1}{}% 61
-\BOOKMARK [0][-]{chapter.11}{Prototipo funcional V2}{}% 62
-\BOOKMARK [0][-]{chapter.12}{Prototipo final}{}% 63
-\BOOKMARK [0][-]{chapter.13}{Discusi\363n}{}% 64
-\BOOKMARK [0][-]{chapter.14}{Conclusi\363n}{}% 65
-\BOOKMARK [0][-]{chapter.15}{Anexos}{}% 66
+\BOOKMARK [1][-]{section.10.1}{Configuraci\363n final RN4020}{chapter.10}% 62
+\BOOKMARK [1][-]{section.10.2}{An\341lisis de rendimiento por codificaci\363n }{chapter.10}% 63
+\BOOKMARK [1][-]{section.10.3}{Elementos en Android}{chapter.10}% 64
+\BOOKMARK [2][-]{subsection.10.3.1}{RecyclerView}{section.10.3}% 65
+\BOOKMARK [2][-]{subsection.10.3.2}{C\363digos QR}{section.10.3}% 66
+\BOOKMARK [2][-]{subsection.10.3.3}{Fragment}{section.10.3}% 67
+\BOOKMARK [2][-]{subsection.10.3.4}{MPAndroidChart}{section.10.3}% 68
+\BOOKMARK [2][-]{subsection.10.3.5}{Shared Preference}{section.10.3}% 69
+\BOOKMARK [2][-]{subsection.10.3.6}{Inicio autom\341tico de Servicio y otros}{section.10.3}% 70
+\BOOKMARK [0][-]{chapter.11}{Prototipo funcional V2}{}% 71
+\BOOKMARK [1][-]{section.11.1}{Control de sensores por Android}{chapter.11}% 72
+\BOOKMARK [1][-]{section.11.2}{Renovaci\363n de servidor Arduino}{chapter.11}% 73
+\BOOKMARK [1][-]{section.11.3}{An\341lisis de frecuencia y resoluci\363n para ECG}{chapter.11}% 74
+\BOOKMARK [1][-]{section.11.4}{Base de datos local \(comparativa Realm, SQLite\) }{chapter.11}% 75
+\BOOKMARK [1][-]{section.11.5}{Modelo tentativo para Realm}{chapter.11}% 76
+\BOOKMARK [0][-]{chapter.12}{Prototipo final}{}% 77
+\BOOKMARK [1][-]{section.12.1}{Paquetes de control Bluetooth}{chapter.12}% 78
+\BOOKMARK [1][-]{section.12.2}{Conteo para retransmisi\363n}{chapter.12}% 79
+\BOOKMARK [1][-]{section.12.3}{Implementaci\363n de Realm}{chapter.12}% 80
+\BOOKMARK [1][-]{section.12.4}{Servicio web}{chapter.12}% 81
+\BOOKMARK [1][-]{section.12.5}{Selecci\363n de usuario, tipo de cuentas}{chapter.12}% 82
+\BOOKMARK [0][-]{chapter.13}{Discusi\363n}{}% 83
+\BOOKMARK [0][-]{chapter.14}{Conclusi\363n}{}% 84
+\BOOKMARK [0][-]{chapter.15}{Anexos}{}% 85

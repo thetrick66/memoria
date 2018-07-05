@@ -60,6 +60,13 @@ Una Característica contiene un único valor y entre 0 y n descriptores que desc
 	\label{topologia}
 \end{figure}
 
+Algo importante además de todo lo ya mencionado son los distintos estados en los que se pueden encontrar los distintos dispositivos Bluetooth, los cuales varían dependiendo de las versiones Bluetooth y los dispositivos mismos. A grandes rasgos se pueden distinguir 3:
+
+\textbf{Emparejado}: Reconocimiento inicial, en donde se realiza un intercambio de llaves criptográficas (validación por medio de pin) para una comunicación cifrada inmediata.
+
+\textbf{Enlazado/ligado}: Intercambio y almacenamiento de llaves criptográficas (validación por medio de pin), no necesariamente requiere una conexión inmediata, puede realizarse para posteriormente conectar los dispositivos.
+
+\textbf{Conectado}: A partir de algún estado ya mencionado, se continúa con la conexión misma, con la que se espera intercambiar la información objetivo.
 \newpage
 
 \section{Características disponibles y selección, autoconexión Bluetooth (desde Android)}
