@@ -76,16 +76,16 @@
 \contentsline {subsection}{\numberline {10.3.6}Inicio autom\IeC {\'a}tico de Servicio y otros}{68}{subsection.10.3.6}
 \contentsline {chapter}{\numberline {11.}Prototipo funcional V2}{69}{chapter.11}
 \contentsline {section}{\numberline {11.1}Control de sensores por Android}{69}{section.11.1}
-\contentsline {section}{\numberline {11.2}Renovaci\IeC {\'o}n de servidor Arduino}{69}{section.11.2}
-\contentsline {section}{\numberline {11.3}An\IeC {\'a}lisis de frecuencia y resoluci\IeC {\'o}n para ECG}{69}{section.11.3}
-\contentsline {section}{\numberline {11.4}Base de datos local (comparativa Realm, SQLite) }{69}{section.11.4}
-\contentsline {section}{\numberline {11.5}Modelo tentativo para Realm}{69}{section.11.5}
-\contentsline {chapter}{\numberline {12.}Prototipo final}{70}{chapter.12}
-\contentsline {section}{\numberline {12.1}Paquetes de control Bluetooth}{70}{section.12.1}
-\contentsline {section}{\numberline {12.2}Conteo para retransmisi\IeC {\'o}n}{70}{section.12.2}
-\contentsline {section}{\numberline {12.3}Implementaci\IeC {\'o}n de Realm}{70}{section.12.3}
-\contentsline {section}{\numberline {12.4}Servicio web}{70}{section.12.4}
-\contentsline {section}{\numberline {12.5}Selecci\IeC {\'o}n de usuario, tipo de cuentas}{70}{section.12.5}
-\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{71}{chapter.13}
-\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{72}{chapter.14}
-\contentsline {chapter}{\numberline {15.}Anexos}{73}{chapter.15}
+\contentsline {section}{\numberline {11.2}Renovaci\IeC {\'o}n de servidor Arduino}{71}{section.11.2}
+\contentsline {section}{\numberline {11.3}An\IeC {\'a}lisis de resoluci\IeC {\'o}n y frecuencia para ECG}{72}{section.11.3}
+\contentsline {section}{\numberline {11.4}Base de datos local (comparativa Realm, SQLite) }{74}{section.11.4}
+\contentsline {section}{\numberline {11.5}Modelo tentativo para Realm}{76}{section.11.5}
+\contentsline {chapter}{\numberline {12.}Prototipo final}{78}{chapter.12}
+\contentsline {section}{\numberline {12.1}Paquetes de control Bluetooth}{78}{section.12.1}
+\contentsline {section}{\numberline {12.2}Conteo para retransmisi\IeC {\'o}n}{78}{section.12.2}
+\contentsline {section}{\numberline {12.3}Implementaci\IeC {\'o}n de Realm}{78}{section.12.3}
+\contentsline {section}{\numberline {12.4}Servicio web}{78}{section.12.4}
+\contentsline {section}{\numberline {12.5}Selecci\IeC {\'o}n de usuario, tipo de cuentas}{78}{section.12.5}
+\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{79}{chapter.13}
+\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{80}{chapter.14}
+\contentsline {chapter}{\numberline {15.}Anexos}{81}{chapter.15}

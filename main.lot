@@ -17,6 +17,12 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+\contentsline {table}{\numberline {11.1}{\ignorespaces Tabla Paciente: Datos personales del paciente}}{76}{table.11.1}
+\contentsline {table}{\numberline {11.2}{\ignorespaces Tabla Mediciones: Al iniciar una medici\IeC {\'o}n almacena los datos relacionada a esta por posible retransmisi\IeC {\'o}n necesaria hacia el servidro web}}{76}{table.11.2}
+\contentsline {table}{\numberline {11.3}{\ignorespaces Tabla ECG: Al iniciar una medici\IeC {\'o}n de ECG}}{77}{table.11.3}
+\contentsline {table}{\numberline {11.4}{\ignorespaces Tabla Datos ECG: Se escribe con cada dato, pero asociado a una medici\IeC {\'o}n(Fecha\_hora\_min\_seg)}}{77}{table.11.4}
+\contentsline {table}{\numberline {11.5}{\ignorespaces Tabla T: Al iniciar una medici\IeC {\'o}n de T}}{77}{table.11.5}
+\contentsline {table}{\numberline {11.6}{\ignorespaces Tabla Datos T: Se escribe con cada dato, pero asociado a una medici\IeC {\'o}n(Fecha\_hora\_min\_seg)}}{77}{table.11.6}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

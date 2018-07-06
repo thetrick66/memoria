@@ -71,7 +71,7 @@
 \BOOKMARK [0][-]{chapter.11}{Prototipo funcional V2}{}% 71
 \BOOKMARK [1][-]{section.11.1}{Control de sensores por Android}{chapter.11}% 72
 \BOOKMARK [1][-]{section.11.2}{Renovaci\363n de servidor Arduino}{chapter.11}% 73
-\BOOKMARK [1][-]{section.11.3}{An\341lisis de frecuencia y resoluci\363n para ECG}{chapter.11}% 74
+\BOOKMARK [1][-]{section.11.3}{An\341lisis de resoluci\363n y frecuencia para ECG}{chapter.11}% 74
 \BOOKMARK [1][-]{section.11.4}{Base de datos local \(comparativa Realm, SQLite\) }{chapter.11}% 75
 \BOOKMARK [1][-]{section.11.5}{Modelo tentativo para Realm}{chapter.11}% 76
 \BOOKMARK [0][-]{chapter.12}{Prototipo final}{}% 77
