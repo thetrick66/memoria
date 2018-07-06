@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 JUL 2018 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 JUL 2018 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3038,6 +3038,16 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 147.
@@ -3489,7 +3499,7 @@ Package babel Info: Redefining spanish shorthand "?
 LaTeX Warning: The counter will not be printed.
              The label is:  on input line 20.
 
-<figuras/proto1/benchmark.png, id=981, 1116.17pt x 271.0125pt>
+<figuras/proto1/benchmark.png, id=984, 1116.17pt x 271.0125pt>
 File: figuras/proto1/benchmark.png Graphic file (type png)
 <use figuras/proto1/benchmark.png>
 Package pdftex.def Info: figuras/proto1/benchmark.png  used on input line 30.
@@ -3535,7 +3545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<figuras/proto1/library.png, id=992, 1186.4325pt x 542.025pt>
+<figuras/proto1/library.png, id=995, 1186.4325pt x 542.025pt>
 File: figuras/proto1/library.png Graphic file (type png)
 <use figuras/proto1/library.png>
 Package pdftex.def Info: figuras/proto1/library.png  used on input line 46.
@@ -3582,7 +3592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-<figuras/proto1/recycler.png, id=998, 193.72375pt x 180.675pt>
+<figuras/proto1/recycler.png, id=1001, 193.72375pt x 180.675pt>
 File: figuras/proto1/recycler.png Graphic file (type png)
 <use figuras/proto1/recycler.png>
 Package pdftex.def Info: figuras/proto1/recycler.png  used on input line 61.
@@ -3624,7 +3634,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 68.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 68.
-<figuras/proto1/qr.png, id=1004, 146.5475pt x 147.55125pt>
+<figuras/proto1/qr.png, id=1007, 146.5475pt x 147.55125pt>
 File: figuras/proto1/qr.png Graphic file (type png)
 <use figuras/proto1/qr.png>
 Package pdftex.def Info: figuras/proto1/qr.png  used on input line 78.
@@ -3666,7 +3676,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 87.
  [65 <./figuras/proto1/qr.png>]
-<figuras/proto1/fragment.png, id=1010, 191.71625pt x 342.27875pt>
+<figuras/proto1/fragment.png, id=1013, 191.71625pt x 342.27875pt>
 File: figuras/proto1/fragment.png Graphic file (type png)
 <use figuras/proto1/fragment.png>
 Package pdftex.def Info: figuras/proto1/fragment.png  used on input line 90.
@@ -3708,7 +3718,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 100.
  [66 <./figuras/proto1/fragment.png>]
-<figuras/proto1/graph.png, id=1016, 193.72375pt x 288.07625pt>
+<figuras/proto1/graph.png, id=1019, 193.72375pt x 288.07625pt>
 File: figuras/proto1/graph.png Graphic file (type png)
 <use figuras/proto1/graph.png>
 Package pdftex.def Info: figuras/proto1/graph.png  used on input line 103.
@@ -3841,7 +3851,7 @@ Package babel Info: Redefining spanish shorthand "?
 [69
 
 ]
-<figuras/proto2/handler.png, id=1032, 709.65125pt x 413.545pt>
+<figuras/proto2/handler.png, id=1035, 709.65125pt x 413.545pt>
 File: figuras/proto2/handler.png Graphic file (type png)
 <use figuras/proto2/handler.png>
 Package pdftex.def Info: figuras/proto2/handler.png  used on input line 29.
@@ -3920,12 +3930,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 62.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 62.
-<figuras/proto2/8bit.png, id=1043, 911.405pt x 458.71375pt>
+<figuras/proto2/8bit.png, id=1046, 911.405pt x 458.71375pt>
 File: figuras/proto2/8bit.png Graphic file (type png)
 <use figuras/proto2/8bit.png>
 Package pdftex.def Info: figuras/proto2/8bit.png  used on input line 68.
 (pdftex.def)             Requested size: 364.55554pt x 183.48224pt.
-<figuras/proto2/10bit.png, id=1044, 911.405pt x 453.695pt>
+<figuras/proto2/10bit.png, id=1047, 911.405pt x 453.695pt>
 File: figuras/proto2/10bit.png Graphic file (type png)
 <use figuras/proto2/10bit.png>
 Package pdftex.def Info: figuras/proto2/10bit.png  used on input line 75.
@@ -3955,7 +3965,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 80.
  [72 <./figuras/proto2/8bit.png> <./figuras/proto2/10bit.png>]
-<figuras/proto2/1000hz.png, id=1051, 1028.34187pt x 548.0475pt>
+<figuras/proto2/1000hz.png, id=1054, 1028.34187pt x 548.0475pt>
 File: figuras/proto2/1000hz.png Graphic file (type png)
 <use figuras/proto2/1000hz.png>
 Package pdftex.def Info: figuras/proto2/1000hz.png  used on input line 92.
@@ -4002,12 +4012,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 100.
 [73 <./figuras/proto2/1000hz.png>]
-<figuras/proto2/benchmark.png, id=1059, 1238.6275pt x 542.025pt>
+<figuras/proto2/benchmark.png, id=1062, 1238.6275pt x 542.025pt>
 File: figuras/proto2/benchmark.png Graphic file (type png)
 <use figuras/proto2/benchmark.png>
 Package pdftex.def Info: figuras/proto2/benchmark.png  used on input line 109.
 (pdftex.def)             Requested size: 371.59113pt x 162.60875pt.
-<figuras/proto2/insert.png, id=1060, 869.2475pt x 501.875pt>
+<figuras/proto2/insert.png, id=1063, 869.2475pt x 501.875pt>
 File: figuras/proto2/insert.png Graphic file (type png)
 <use figuras/proto2/insert.png>
 Package pdftex.def Info: figuras/proto2/insert.png  used on input line 116.
@@ -4037,7 +4047,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 120.
  [74 <./figuras/proto2/benchmark.png>]
-<figuras/proto2/queries.png, id=1067, 889.3225pt x 501.875pt>
+<figuras/proto2/queries.png, id=1070, 889.3225pt x 501.875pt>
 File: figuras/proto2/queries.png Graphic file (type png)
 <use figuras/proto2/queries.png>
 Package pdftex.def Info: figuras/proto2/queries.png  used on input line 123.
@@ -4338,7 +4348,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
-<figuras/anexos/code1.jpg, id=1096, 542.025pt x 611.28375pt>
+<figuras/anexos/code1.jpg, id=1099, 542.025pt x 611.28375pt>
 File: figuras/anexos/code1.jpg Graphic file (type jpg)
 <use figuras/anexos/code1.jpg>
 Package pdftex.def Info: figuras/anexos/code1.jpg  used on input line 9.
@@ -4375,47 +4385,47 @@ Package babel Info: Redefining spanish shorthand "?
 [81
 
  <./figuras/anexos/code1.jpg>]
-<figuras/anexos/code2.jpg, id=1101, 543.53062pt x 605.26125pt>
+<figuras/anexos/code2.jpg, id=1104, 543.53062pt x 605.26125pt>
 File: figuras/anexos/code2.jpg Graphic file (type jpg)
 <use figuras/anexos/code2.jpg>
 Package pdftex.def Info: figuras/anexos/code2.jpg  used on input line 10.
 (pdftex.def)             Requested size: 409.43526pt x 455.95815pt.
-<figuras/anexos/code3.jpg, id=1102, 548.0475pt x 606.76688pt>
+<figuras/anexos/code3.jpg, id=1105, 548.0475pt x 606.76688pt>
 File: figuras/anexos/code3.jpg Graphic file (type jpg)
 <use figuras/anexos/code3.jpg>
 Package pdftex.def Info: figuras/anexos/code3.jpg  used on input line 11.
 (pdftex.def)             Requested size: 409.43526pt x 453.31493pt.
-<figuras/anexos/code4.jpg, id=1103, 543.53062pt x 606.76688pt>
+<figuras/anexos/code4.jpg, id=1106, 543.53062pt x 606.76688pt>
 File: figuras/anexos/code4.jpg Graphic file (type jpg)
 <use figuras/anexos/code4.jpg>
 Package pdftex.def Info: figuras/anexos/code4.jpg  used on input line 12.
 (pdftex.def)             Requested size: 409.43526pt x 457.09239pt.
-<figuras/anexos/code5.jpg, id=1104, 545.03625pt x 603.75563pt>
+<figuras/anexos/code5.jpg, id=1107, 545.03625pt x 603.75563pt>
 File: figuras/anexos/code5.jpg Graphic file (type jpg)
 <use figuras/anexos/code5.jpg>
 Package pdftex.def Info: figuras/anexos/code5.jpg  used on input line 13.
 (pdftex.def)             Requested size: 409.43526pt x 453.5434pt.
-<figuras/anexos/code6.jpg, id=1105, 536.0025pt x 611.28375pt>
+<figuras/anexos/code6.jpg, id=1108, 536.0025pt x 611.28375pt>
 File: figuras/anexos/code6.jpg Graphic file (type jpg)
 <use figuras/anexos/code6.jpg>
 Package pdftex.def Info: figuras/anexos/code6.jpg  used on input line 14.
 (pdftex.def)             Requested size: 409.43526pt x 466.94032pt.
-<figuras/anexos/code7.jpg, id=1106, 543.53062pt x 606.76688pt>
+<figuras/anexos/code7.jpg, id=1109, 543.53062pt x 606.76688pt>
 File: figuras/anexos/code7.jpg Graphic file (type jpg)
 <use figuras/anexos/code7.jpg>
 Package pdftex.def Info: figuras/anexos/code7.jpg  used on input line 15.
 (pdftex.def)             Requested size: 409.43526pt x 457.09239pt.
-<figuras/anexos/code8.jpg, id=1107, 545.03625pt x 608.2725pt>
+<figuras/anexos/code8.jpg, id=1110, 545.03625pt x 608.2725pt>
 File: figuras/anexos/code8.jpg Graphic file (type jpg)
 <use figuras/anexos/code8.jpg>
 Package pdftex.def Info: figuras/anexos/code8.jpg  used on input line 16.
 (pdftex.def)             Requested size: 409.43526pt x 456.9365pt.
-<figuras/anexos/code9.jpg, id=1108, 545.03625pt x 609.77812pt>
+<figuras/anexos/code9.jpg, id=1111, 545.03625pt x 609.77812pt>
 File: figuras/anexos/code9.jpg Graphic file (type jpg)
 <use figuras/anexos/code9.jpg>
 Package pdftex.def Info: figuras/anexos/code9.jpg  used on input line 17.
 (pdftex.def)             Requested size: 409.43526pt x 458.06752pt.
-<figuras/anexos/code10.jpg, id=1109, 543.53062pt x 605.26125pt>
+<figuras/anexos/code10.jpg, id=1112, 543.53062pt x 605.26125pt>
 File: figuras/anexos/code10.jpg Graphic file (type jpg)
 <use figuras/anexos/code10.jpg>
 Package pdftex.def Info: figuras/anexos/code10.jpg  used on input line 19.
@@ -4844,6 +4854,15 @@ Underfull \hbox (badness 2310) in paragraph at lines 47--48
 blog/realm-for-
  []
 
+
+LaTeX Warning: Hyper reference `user_guide_rn4020' on page 92 undefined on inpu
+t line 49.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\OT1/ptm/m/n/12 Microchip, ``RN4020 User Gui-de'', rev Ju-lio 2018,
+ []
+
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
 Package babel Info: Redefining spanish shorthand <<
@@ -4887,13 +4906,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 11396 strings out of 492649
- 164224 string characters out of 6129622
- 271661 words of memory out of 5000000
- 14674 multiletter control sequences out of 15000+600000
+ 11399 strings out of 492649
+ 164284 string characters out of 6129622
+ 271701 words of memory out of 5000000
+ 14676 multiletter control sequences out of 15000+600000
  29114 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,12n,43p,1562b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,12n,43p,1207b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
@@ -4903,10 +4922,10 @@ ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on main.pdf (98 pages, 6618894 bytes).
+Output written on main.pdf (98 pages, 6619278 bytes).
 PDF statistics:
- 1257 PDF objects out of 1440 (max. 8388607)
- 1067 compressed objects within 11 object streams
- 307 named destinations out of 1000 (max. 500000)
+ 1260 PDF objects out of 1440 (max. 8388607)
+ 1070 compressed objects within 11 object streams
+ 308 named destinations out of 1000 (max. 500000)
  916 words of extra memory for PDF output out of 10000 (max. 10000000)
 
