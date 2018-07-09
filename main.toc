@@ -86,5 +86,9 @@
 \contentsline {section}{\numberline {12.3}Servicio web}{80}{section.12.3}
 \contentsline {section}{\numberline {12.4}Selecci\IeC {\'o}n de usuario, tipo de cuentas y muestras}{83}{section.12.4}
 \contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{86}{chapter.13}
-\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{87}{chapter.14}
-\contentsline {chapter}{\numberline {15.}Anexos}{88}{chapter.15}
+\contentsline {subsection}{\numberline {13.0.1}Metodolog\IeC {\'\i }a de trabajo}{86}{subsection.13.0.1}
+\contentsline {subsection}{\numberline {13.0.2}Relaciones p\IeC {\'u}blicas}{87}{subsection.13.0.2}
+\contentsline {subsection}{\numberline {13.0.3}Trabajos futuros}{88}{subsection.13.0.3}
+\contentsline {subsection}{\numberline {13.0.4}Nuevas tecnolog\IeC {\'\i }as y su impacto en el proyecto}{88}{subsection.13.0.4}
+\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{89}{chapter.14}
+\contentsline {chapter}{\numberline {15.}Anexos}{90}{chapter.15}

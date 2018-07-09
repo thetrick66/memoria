@@ -1,6 +1,6 @@
 \chapter{Prototipo final}\label{protof}
 
-Con el prototipo número 2, se logra una base con la cual ya implementar el servidor web al cual conectarse. No sin antes analizar posibles mejoras a lo ya hecho, en base a distintas pruebas de rendimiento y cambios menores principalmente a nivel de comunicación Bluetooth.
+Con el prototipo anterior, se logra una base con la cual ya implementar el servidor web al cual conectarse. No sin antes analizar posibles mejoras a lo ya hecho, en base a distintas pruebas de rendimiento y cambios menores principalmente a nivel de comunicación Bluetooth.
 
 En las siguientes seccioness se detallan los cambios realizados para el prototipo final, en donde se destacan mejoras necesarias de la versión 2 y la selección e implementación del servidor web.
 
@@ -131,7 +131,7 @@ Como se puede observar en la figura \ref{medicion}, el gráfico resultante se en
 	\label{medicionApp}
 \end{figure}
 
-En las figurlas \ref{medicionPc} y \ref{medicionApp} se puede observar una misma medición siendo finalizada exitosamente, en la que por un lado en la página web se presentan las dos notificaciones asociadas a cada sensor y en la aplicación un Toast indicando su término correcto.
+En las figurlas \ref{medicionPc} y \ref{medicionApp} se puede observar una misma medición siendo finalizada exitosamente, en la que por un lado en la página web se presentan las dos notificaciones asociadas a cada sensor y en la aplicación un Toast (común mensaje flotante en Android) indicando su término correcto.
 
 Es importante destacar que de fallar la medición, ya sea por uno o por los dos sensores (conteo total de datos enviados distintos entre microcontrolador y aplicación) ésta se reiniciará automáticamente, sin intervención del usuario y los datos almacenados en las distintas bases de datos serán borrados (como cabe esperar en un caso de error).
 
