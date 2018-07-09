@@ -82,10 +82,9 @@
 \contentsline {section}{\numberline {11.5}Modelo tentativo para Realm}{76}{section.11.5}
 \contentsline {chapter}{\numberline {12.}Prototipo final}{78}{chapter.12}
 \contentsline {section}{\numberline {12.1}Paquetes de control Bluetooth}{78}{section.12.1}
-\contentsline {section}{\numberline {12.2}Conteo para retransmisi\IeC {\'o}n}{78}{section.12.2}
-\contentsline {section}{\numberline {12.3}Implementaci\IeC {\'o}n de Realm}{78}{section.12.3}
-\contentsline {section}{\numberline {12.4}Servicio web}{78}{section.12.4}
-\contentsline {section}{\numberline {12.5}Selecci\IeC {\'o}n de usuario, tipo de cuentas}{78}{section.12.5}
-\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{79}{chapter.13}
-\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{80}{chapter.14}
-\contentsline {chapter}{\numberline {15.}Anexos}{81}{chapter.15}
+\contentsline {section}{\numberline {12.2}Implementaci\IeC {\'o}n de Realm}{79}{section.12.2}
+\contentsline {section}{\numberline {12.3}Servicio web}{80}{section.12.3}
+\contentsline {section}{\numberline {12.4}Selecci\IeC {\'o}n de usuario, tipo de cuentas y muestras}{83}{section.12.4}
+\contentsline {chapter}{\numberline {13.}Discusi\IeC {\'o}n}{86}{chapter.13}
+\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{87}{chapter.14}
+\contentsline {chapter}{\numberline {15.}Anexos}{88}{chapter.15}
