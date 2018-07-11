@@ -90,5 +90,5 @@
 \contentsline {section}{\numberline {13.2}Relaciones p\IeC {\'u}blicas}{87}{section.13.2}
 \contentsline {section}{\numberline {13.3}Trabajos futuros}{88}{section.13.3}
 \contentsline {section}{\numberline {13.4}Nuevas tecnolog\IeC {\'\i }as y su impacto en el proyecto}{90}{section.13.4}
-\contentsline {chapter}{\numberline {14.}Conclusi\IeC {\'o}n}{93}{chapter.14}
+\contentsline {chapter}{\numberline {14.}Conclusiones}{93}{chapter.14}
 \contentsline {chapter}{\numberline {15.}Anexos}{95}{chapter.15}
