@@ -17,13 +17,17 @@ Respecto a la comunicación entre el microcontrolador y el módulo se observa qu
 En esta oportunidad se le da prioridad a la configuración del ECG por sobre los datos de temperatura, pese ya a tener configurada la característica asociada a ambos. Por lo que se realizan distintas pruebas modificando parámetros relevantes como la potencia (de transmisión del chip RN4020), la seguridad, cantidad de datos por envío y Baudios. Cabe mencionar que los datos deben ser convertidos a hexadecimal para ser entregados al módulo Bluetooth, por lo que se deben convertir tanto en el microcontrolador como en la aplicación móvil.
 
 En la figura \ref{benchmark} se utilizaron:
-\begin{enumerate}[]
-	\item \textbf{Distancia}:  Fija a 1 metro.
-	\item \textbf{Potencia}: Variable {4 y 7} a {-2.5 [dBm] y 7.5 [dBm] }
-	\item \textbf{Seguridad}: Enlazado y no enlazado.
-	\item \textbf{Línea vista}: No.
-	\item \textbf{Datos}: Hexadecimal de 1 [byte] representando enteros entre [0-255].
-\end{enumerate}
+
+\textbf{Distancia}:  Fija a 1 metro.
+
+\textbf{Potencia}: Variable 4 y 7, a -2.5 [dBm] y 7.5 [dBm] respectivamente.
+
+\textbf{Seguridad}: Enlazado y no enlazado.
+
+\textbf{Línea vista}: No.
+
+\textbf{Datos}: Hexadecimal de 1 [byte] representando enteros entre [0-255].
+
 
 \begin{figure}[H]
 	\centering
@@ -32,8 +36,8 @@ En la figura \ref{benchmark} se utilizaron:
 	\label{benchmark}
 \end{figure}
 
-Con lo cual se justifica el uso de paquetes de 20 datos (máximo permitido) por envío. Logrando así una frecuencia de al menos 200 [Bps] en el envío de datos si fuere necesario.
-Además se destaca que la seguridad no afecta significativamente y dada la distancia, la potencia de transmisión tampoco. Pese a lo anterior se baraja la posibilidad de usar una resolución de 10 bits (resolución máxima del sensor) a través del uso de 2 bytes hexadecimales, alcanzando un máximo de 10 datos por envío.
+Con lo cual se justifica el uso de paquetes de 20 datos (máximo permitido en una misma instrucción por el módulo RN4020) por envío. Logrando así una frecuencia de al menos 200 [Bps] en el envío de datos si fuere necesario.
+Además, se destaca que la seguridad no afecta significativamente y dada la distancia, la potencia de transmisión tampoco. Pese a lo anterior se baraja la posibilidad de usar una resolución de 10 bits (resolución máxima del sensor) a través del uso de 2 bytes hexadecimales, alcanzando un máximo de 10 datos por envío.
 
 \section{Elementos en Android}
 

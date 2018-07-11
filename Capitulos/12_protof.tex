@@ -38,13 +38,13 @@ Si bien en capítulos anteriores se implementó un servidor web basado en Python
 
 Por lo anterior y pensando en un cambio completo del servicio web, se buscan entre distintas alternativas que sean compatibles con los requerimientos del proyecto:
 
-\textbf{Motor Web}: NodeJS (mongoose, socket.io, angularJS), MeteorJS, ExpressJS.
+\textbf{Motor Web}: NodeJS\cite{nodejs} (mongoose\cite{mongoose}, socket.io\cite{socket}, angularJS\cite{angularjs}), MeteorJS\cite{meteor}, ExpressJS\cite{expressjs}.
 
-\textbf{Base de datos}: InfluxDB, FireBase, PostgreSQL.
+\textbf{Base de datos}: InfluxDB\cite{influxdb}, FireBase\cite{firebase}, PostgreSQL\cite{postgresql}.
 
-\textbf{Visualización de datos}: Grafana, D3, High Charts, ChartsJS.
+\textbf{Visualización de datos}: Grafana\cite{grafana}, D3\cite{d3}, High Charts\cite{highcharts}, ChartJS\cite{chartjs}.
 
-\textbf{Comunicación}: WebSocket.
+\textbf{Comunicación}: WebSocket\cite{websocket}.
 
 Como se puede observar, la única seguridad de la cual el proyecto no se puede alejar es del uso de WebSocket
 dadas sus prestaciones (alta velocidad y baja latencia).
@@ -56,21 +56,21 @@ Analizando las distintas opciones ya mencionadas se determina configurar un serv
  
  \textbf{Dominio}: Se adquiere por \$10.000 pesos en NIC (nombres de dominio CL) el dominio ``proyectogaleno.cl". Del cual se puede ver el certificado en los anexos.
  
-\textbf{DNS}: De forma gratuita, se consigue con Namecheap (registrador acreditado por la ICANN (Internet Corporation for Assigned Names and Numbers) que brinda servicios de registro de nombres de dominio y ofrece nombres de dominio de venta que están registrados a terceros) bajo el domninio ``proyectogaleno.cl".
+\textbf{DNS}: De forma gratuita se consigue con Namecheap\cite{namecheap} (registrador acreditado por la ICANN -Internet Corporation for Assigned Names and Numbers- que brinda servicios de registro de nombres de dominio y ofrece otros de venta que están registrados a terceros) bajo el domninio ``proyectogaleno.cl".
 
 \textbf{Email}: Para no montar directamente un servidor de correos electrónicos, se configura una redirección por el mismo servicio de Namecheap hacia el dominio ya mencionado.
 
-\textbf{Servidor Web}: MeteorJS, por su enfoque a las conexiones en tiempo real (con el uso de WebSocket), por ser FullStack basado en JavaScript permitiendo un ágil desarrollo y por poseer el repositorio AtmosphereJS, que cuenta con multitud de paquetes de toda índole y de rápida implementación.
+\textbf{Servidor Web}: MeteorJS, por su enfoque a las conexiones en tiempo real (con el uso de WebSocket), por ser FullStack basado en JavaScript permitiendo un ágil desarrollo y por poseer el repositorio AtmosphereJS\cite{atmosphere}, que cuenta con multitud de paquetes de toda índole y de rápida implementación.
 
-\textbf{Websocket}: DDP, protocolo que define cierto estándar de comunicación entre el servidor y los clientes, con el uso de mensajes JSON sobre websocket. Haciendo realmente rápida la implementación de la comunicación sobre WebSocket.
+\textbf{Websocket}: DDP\cite{ddp}, protocolo que define cierto estándar de comunicación entre el servidor y los clientes, con el uso de mensajes JSON sobre websocket. Haciendo realmente rápida la implementación de la comunicación sobre WebSocket.
 
 \textbf{Librería gráfica JS}: D3, librería de JavaScript para producir, a partir de datos, infogramas dinámicos e interactivos en navegadores web, haciendo uso de tecnologías bien sustentadas como SVG, HTML5, y CSS. Su elección radica en el gran control final que otorga y su fácil implementación en conjunto con Meteor con su paquete oficial d3js:d3.
 
-\textbf{Base de datos}: MongoDB, si bien se analizaron otras opciones, se sigue prefiriendo su uso por sus características base y por su buen acoplo con MeteorJS.
+\textbf{Base de datos}: MongoDB\cite{mongodb}, si bien se analizaron otras opciones, se sigue prefiriendo su uso por sus características base y por su buen acoplo con MeteorJS.
 
-\textbf{Proxy reverso}: NGinx, en este apartado no se realizaron modificaciones pues no existe competencia real dadas las prestaciones que ofrece y los requerimientos del proyecto (pasando por los fondos disponibles). \newline
+\textbf{Proxy reverso}: NGinx\cite{nginx}, en este apartado no se realizaron modificaciones pues no existe competencia real dadas las prestaciones que ofrece y los requerimientos del proyecto (pasando por los fondos disponibles). \newline
 
-\textbf{Seguridad}: HTTPS y WSS (CertBot/LetsEncrypt), en este apartado se escoge utilizar certificados provistos gratuitamente por LetsEncrypt para hacer uso de los protocolos ya mencionados. HTTPS ofrece una base segura de intercambio de información entre el servidor y los clientes, sobre la cual además se utiliza WSS que es la versión encriptada de WS (protocolo de websocket). Dotando en conjunto de una segura comnunicación sin perder rendimiento, pues ambas técnicas se basan en una sobrecarga principalmente al iniciar la comunicación y no en cada mensaje intercambiado.
+\textbf{Seguridad}: HTTPS y WSS (CertBot/LetsEncrypt)\cite{certbot}\cite{nginx_certbot}, en este apartado se escoge utilizar certificados provistos gratuitamente por LetsEncrypt para hacer uso de los protocolos ya mencionados. HTTPS ofrece una base segura de intercambio de información entre el servidor y los clientes, sobre la cual además se utiliza WSS que es la versión encriptada de WS (protocolo de websocket). Dotando en conjunto de una segura comnunicación sin perder rendimiento, pues ambas técnicas se basan en una sobrecarga principalmente al iniciar la comunicación y no en cada mensaje intercambiado.
 
 \begin{figure}[H]
 	\centering
