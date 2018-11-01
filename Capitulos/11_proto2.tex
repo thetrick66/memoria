@@ -27,7 +27,7 @@ Esto en conjunto con un Handler (ejecución de una tarea en otro hilo) en Androi
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{figuras/proto2/handler.png}
-	\caption{Control de peticiones por Handler y repetición}
+	\caption{Control de peticiones por Handler y repetición. Fuente: Elaboración propia}
 	\label{handler}
 \end{figure}
 
@@ -66,14 +66,14 @@ Pasando directamente al manejo del ECG por parte del controlador, se realizan pr
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{figuras/proto2/8bit.png}
-	\caption{ECG a 300 [Hz] y 8 bit de resolución}
+	\caption{ECG a 300 [Hz] y 8 bit de resolución. Fuente: Elaboración propia}
 	\label{8bit}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{figuras/proto2/10bit.png}
-	\caption{ECG a 300 [Hz] y 10 bit de resolución}
+	\caption{ECG a 300 [Hz] y 10 bit de resolución. Fuente: Elaboración propia}
 	\label{10bit}
 \end{figure}
 
@@ -90,7 +90,7 @@ Se hicieron pruebas de frecuencia para el ECG, probando valores entre 50 [Hz] y 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{figuras/proto2/1000hz.png}
-	\caption{ECG a 1.000 [Hz] y 10 bit de resolución}
+	\caption{ECG a 1.000 [Hz] y 10 bit de resolución. Fuente: Elaboración propia}
 	\label{1000hz}
 \end{figure}
 
@@ -107,21 +107,21 @@ A continuación se presentan gráficas provistas por el equipo de Realm en compa
  \begin{figure}[H]
  	\centering
  	\includegraphics[scale=0.3]{figuras/proto2/benchmark.png}
- 	\caption{Benchmark frente a SQLite con el uso de distintas librerías}
+ 	\caption{Benchmark frente a SQLite con el uso de distintas librerías \cite{realm_android}}
  	\label{benchmark_realm}
  \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{figuras/proto2/insert.png}
-	\caption{Comparativa en escrituras a la base de datos}
+	\caption{Comparativa en escrituras a la base de datos \cite{realm_android}}
 	\label{insert}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{figuras/proto2/queries.png}
-	\caption{Comparativa en lecturas a la base de datos}
+	\caption{Comparativa en lecturas a la base de datos \cite{realm_android}}
 	\label{queries}
 \end{figure}
 
@@ -151,7 +151,7 @@ Si bien no se alcanza a implementar la base de datos ya escogida, se articula un
 		Teléfono emergencia 2 & int  \\ \hline
 		Nº Ficha & int  \\ \hline
 	\end{tabular}
-	\caption{Tabla Paciente: Datos personales del paciente}
+	\caption{Tabla Paciente: Datos personales del paciente, elaboración propia}
 	\label{tabla_paciente}
 \end{table}
 
@@ -166,7 +166,7 @@ Si bien no se alcanza a implementar la base de datos ya escogida, se articula un
 		Duración & int  \\ \hline
 		Sensores & int  \\ \hline
 	\end{tabular}
-	\caption{Tabla Mediciones: Al iniciar una medición almacena los datos relacionada a esta por posible retransmisión necesaria hacia el servidro web}
+	\caption{Tabla Mediciones: Al iniciar una medición almacena los datos relacionada a esta por posible retransmisión necesaria hacia el servidro web, elaboración propia}
 	\label{tabla_mediciones}
 \end{table}
 
@@ -181,7 +181,7 @@ Si bien no se alcanza a implementar la base de datos ya escogida, se articula un
 		Duración & int  \\ \hline
 		Enviado & boolean  \\ \hline
 	\end{tabular}
-	\caption{Tabla ECG: Al iniciar una medición de ECG}
+	\caption{Tabla ECG: Al iniciar una medición de ECG, elaboración propia}
 	\label{tabla_ECG}
 \end{table}
 
@@ -195,7 +195,7 @@ Si bien no se alcanza a implementar la base de datos ya escogida, se articula un
 		\textbf{Contador}  & int  \\ \hline
 		Valor & int  \\ \hline
 	\end{tabular}
-	\caption{Tabla Datos ECG: Se escribe con cada dato, pero asociado a una medición(Fecha\_hora\_min\_seg)}
+	\caption{Tabla Datos ECG: Se escribe con cada dato, pero asociado a una medición(Fecha\_hora\_min\_seg), elaboración propia}
 	\label{tabla_datos_ECG}
 \end{table}
 
@@ -210,7 +210,7 @@ Si bien no se alcanza a implementar la base de datos ya escogida, se articula un
 		Duración & int  \\ \hline
 		Enviado & boolean  \\ \hline
 	\end{tabular}
-	\caption{Tabla T: Al iniciar una medición de T}
+	\caption{Tabla T: Al iniciar una medición de T, elaboración propia}
 	\label{tabla_T}
 \end{table}
 
@@ -224,7 +224,7 @@ Si bien no se alcanza a implementar la base de datos ya escogida, se articula un
 		\textbf{Contador}  & int  \\ \hline
 		Valor & int  \\ \hline
 	\end{tabular}
-	\caption{Tabla Datos T: Se escribe con cada dato, pero asociado a una medición(Fecha\_hora\_min\_seg)}
+	\caption{Tabla Datos T: Se escribe con cada dato, pero asociado a una medición(Fecha\_hora\_min\_seg), elaboración propia}
 	\label{tabla_datos_T}
 \end{table}
 
