@@ -1,9 +1,10 @@
 \chapter{Estado del arte}\label{arte}
-En el marco del desarrollo del desafío de Sistemas Expertos, se planteó generar un dispositivo de monitoreo a distancia de pacientes. Para esto se comenzó a estudiar aspectos relacionados con la Telemedicina y sus implicancias en el avance del monitoreo Remoto de Paciente (RPM, por sus siglas en inglés). La Telemedicina es, en principio, la tecnología que permite entregar cuidados médicos a través de la infraestructura de las telecomunicaciones, permitiendo a los médicos diagnosticar o evaluar enfermedades sin la necesidad de un control presencial.
+En el marco del desarrollo del desafío de Sistemas Expertos, se planteó generar un dispositivo de monitoreo a distancia de pacientes. Para esto se comenzó a estudiar aspectos relacionados con la Telemedicina y sus implicancias en el avance del monitoreo Remoto de Paciente (RPM, por sus siglas en inglés).\newline 
+La Telemedicina es, en principio, la tecnología que permite entregar cuidados médicos a través de la infraestructura de las telecomunicaciones, permitiendo a los médicos diagnosticar o evaluar enfermedades sin la necesidad de un control presencial.
 Para poder comprender en qué se encuentra la realidad nacional y latinoamericana es de suma importancia revisar algunos casos dónde se apliquen dispositivos de telemedicina bajo la modalidad de monitorear y digitalizar la información, considerando que el objetivo del proyecto se limita a esas dos acciones.
 
 \section{ViSi Mobile\textregistered}
-ViSi Mobile\textregistered\ \cite{visi}, si bien se utiliza en el cuerpo, es una estación que procesa los datos de otros sensores que van colocados en el cuerpo y que a su vez se conectan al módulo central de procesamiento como se puede observar en la imagen 1 lo que es necesario categorizarlo como un producto modular. Los sensores se encargan de medir pulso, respiración, SpO2, presión sanguínea continua no invasiva y temperatura de la piel. El principal objetivo es permitir monitorear al paciente de forma continua dentro del hospital, sin intervenir de manera negativa en el flujo de trabajo que allí existe (ViSi Mobile\textregistered\ System, s. f.). ViSi Mobile\textregistered\ se encarga de recopilar los datos que cada sensor pueda otorgar para luego enviarlos de manera simultánea a un smartphone, una plataforma online de monitoreo y además directo a la estación de trabajo del médico a cargo, permitiendo así una atención eficiente. Esto lo logra haciendo uso de una red existente de Wi-Fi y encriptación WPA2 para la seguridad en la comunicación\cite{visi_tel}.
+ViSi Mobile\textregistered\ \cite{visi}, si bien se utiliza en el cuerpo, es una estación que procesa los datos de otros sensores que van colocados en el cuerpo y que a su vez se conectan al módulo central de procesamiento (como se puede observar en la imagen siguiente). Los sensores se encargan de medir pulso, respiración, SpO2, presión sanguínea continua no invasiva y temperatura de la piel. El principal objetivo es permitir monitorear al paciente de forma continua dentro del hospital, sin intervenir de manera negativa en el flujo de trabajo que allí existe (ViSi Mobile\textregistered\ System, s. f.). ViSi Mobile\textregistered\ se encarga de recopilar los datos que cada sensor pueda otorgar para luego enviarlos de manera simultánea a un smartphone, una plataforma online de monitoreo y además directo a la estación de trabajo del médico a cargo, permitiendo así una atención eficiente. Esto lo logra haciendo uso de una red existente de Wi-Fi y encriptación WPA2 para la seguridad en la comunicación\cite{visi_tel}.
 
 \begin{figure}[H]
 	\centering
@@ -21,11 +22,11 @@ Se puede observar en la figura \ref{visi1} la interfaz que puede ver el paciente
 	\label{visi2}
 \end{figure}
 
-En la imagen de la figura \ref{visi2} se puede observar los sensores conectados al cuerpo que convergen al dispositivo que toma las señales.
+En la imagen de la figura \ref{visi2}, se puede observar los sensores conectados al cuerpo que convergen al dispositivo que toma las señales.
 
 \section{Qardiocore\textregistered}
 
-QardioCore\textregistered\ \cite{qardio} es un monitor de electrocardiograma inalámbrico diseñado para mejorar la detección y manejo de las condiciones cardíacas. Seis sensores se encargan de grabar y analizar sobre 20 millones de puntos de datos durante todo el día junto con otros signos vitales. Este dispositivo está orientado a personas con alto nivel de riesgo cardíaco causado por predisposición familiar, historial de ataques al corazón, presión alta, colesterol alto, diabetes o exceso de peso. Monitorea de forma precisa y continua la salud del corazón. El dispositivo graba datos de ECG, pulso, variación de pulso, temperatura corporal, ritmo respiratorio y niveles de estrés. A diferencia de los ECG tradicionales, QardioCore no utiliza gel ni cables para monitorear y funciona entre -20ºC y 60ºC. Adicionalmente es resistente al agua y su batería dura alrededor de un día. Respecto a las especificaciones técnicas, es capaz de funcionar con una frecuencia de 600 muestras por segundo y una resolución de 16 bit, apoyándose en comunicación Bluetooth 4.0 y plataforma exclusiva iOS (9.0 o superior)\cite{qardio_tel}.
+QardioCore\textregistered\ \cite{qardio} es un monitor de electrocardiograma inalámbrico diseñado para mejorar la detección y manejo de las condiciones cardíacas. Seis sensores se encargan de grabar y analizar sobre 20 millones de puntos de datos durante todo el día junto con otros signos vitales. Este dispositivo está orientado a personas con alto nivel de riesgo cardíaco causado por predisposición familiar, historial de ataques al corazón, presión alta, colesterol alto, diabetes o exceso de peso. Monitorea de forma precisa y continua la salud del corazón. El dispositivo graba datos de ECG, pulso, variación de pulso, temperatura corporal, ritmo respiratorio y niveles de estrés. A diferencia de los ECG tradicionales, QardioCore no utiliza gel ni cables para monitorear y funciona entre -20ºC y 60ºC. Adicionalmente, es resistente al agua y su batería dura alrededor de un día. Respecto a las especificaciones técnicas, es capaz de funcionar con una frecuencia de 600 muestras por segundo y una resolución de 16 bit, apoyándose en comunicación Bluetooth 4.0 y plataforma exclusiva iOS (9.0 o superior)\cite{qardio_tel}.
 
 \begin{figure}[H]
 	\centering
@@ -37,7 +38,7 @@ QardioCore\textregistered\ \cite{qardio} es un monitor de electrocardiograma ina
 Se puede observar el dispositivo Qardiocore en la figura \ref{qardio1} que se conecta a un smartphone para mostrar los datos que se están tomando.
 
 \newpage
-Además como se muestra en la figura \ref{qardio2} es de simple uso, funciona como un cinturón en el pecho del paciente.
+Además, como se muestra en la figura \ref{qardio2}, es de simple uso. Funciona como un cinturón en el pecho del paciente.
 
 \begin{figure}[H]
 	\centering
@@ -48,7 +49,7 @@ Además como se muestra en la figura \ref{qardio2} es de simple uso, funciona co
 
 \section{Nuubo\textregistered}
 
-Nuubo\textregistered\ \cite{nuubo} proporciona una nueva perspectiva en la monitorización cardiológica remota e inalámbrica. La plataforma de Nuubo\textregistered\, nECG platform, permite la captura del ECG dinámico a través de un innovador sistema que está basado en textiles biomédicos de nueva generación, y es rentable, remoto, continuo y no invasivo. Además, puede ser utilizado simultáneamente con uno o varios pacientes. Se basa en tecnología Bluetooth v2.0 + EDR (PC y móvil), con una frecuencia de 250 muestras por segundo y 12 bit de resolución\cite{nuubo_tel}.
+Nuubo\textregistered\ \cite{nuubo} proporciona una nueva perspectiva en la monitorización cardiológica remota e inalámbrica. La plataforma de Nuubo\textregistered\, nECG platform, permite la captura del ECG dinámico a través de un innovador sistema que está basado en textiles biomédicos de nueva generación. Es rentable, remoto, continuo y no invasivo. Además, puede ser utilizado simultáneamente con uno o varios pacientes. Se basa en tecnología Bluetooth v2.0 + EDR (PC y móvil), con una frecuencia de 250 muestras por segundo y 12 bit de resolución\cite{nuubo_tel}.
 La tecnología de electrodos textiles desarrollada por Nuubo\textregistered\ simplifica enormemente los incómodos procedimientos tradicionales de conexión de electrodos, reduciéndolos al sencillo acto de vestir la camiseta nECG SHIRT que se muestra en la figura \ref{shirt}.
 
 \begin{figure}[H]
@@ -67,4 +68,4 @@ El tejido elástico se adapta a los movimientos del paciente, quien puede realiz
 	\label{nuubo}
 \end{figure}
 
-Como se puede observar en la figura \ref{nuubo} la polera toma los datos que son enviados a un dispositivo movil o un computador para que sea visto por el doctor de manera remota.
+Como se puede observar en la figura \ref{nuubo}, la polera toma los datos que son enviados a un dispositivo movil o un computador para que sea visto por el doctor de manera remota.
