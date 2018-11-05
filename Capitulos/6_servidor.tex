@@ -1,8 +1,10 @@
 \chapter{Implementación de la solución de lado del servidor}\label{servidor}
-Como se comentó en el final del capítulo anterior, se ha hecho uso de una página web básica en un servidor Linux contratado y configurado completamente. Esto con el fin de poder ir realizando pruebas y al mismo tiempo tener un espacio preparado para el backend de la aplicación. En este capítulo se ahondará en su adquisición y características generales.
+Como se comentó en el final del capítulo anterior, se ha hecho uso de una página web básica en un servidor Linux contratado y configurado desde cero (puertos a utilizar, frameworks, actualizaciones, entre otros). Esto con el fin de poder ir realizando pruebas y al mismo tiempo tener un espacio preparado para el backend de la aplicación. 
+
+En este capítulo se ahondará en su adquisición y características generales.
 
 \section{Requerimientos}
-Desde un inicio se tuvo en cuenta la necesidad de tener conexión a un servidor capaz de ofrecer el almacenamiento de datos, procesamiento de los mismos y despliegue de ellos a los profesionales de la salud, es por ello que en un inicio se hizo búsqueda de una página web con dichas características. Pero, rápidamente se hace necesario distinguir los servicios ofrecidos para el desarrollo de backend con acceso universal (dirección ip pública).
+Desde un inicio se tuvo en cuenta la necesidad de tener conexión a un servidor capaz de ofrecer el almacenamiento de datos, procesamiento de los mismos y despliegue de ellos a los profesionales de la salud. Es por ello que en un inicio se hizo búsqueda de una página web con dichas características. Pero, rápidamente se hace necesario distinguir los servicios ofrecidos para el desarrollo de backend con acceso universal (dirección ip pública).
 
 \subsection{Tipos de alojamiento Web}
 El hosting\cite{hosting_web} (alojamiento web en español) consiste en un servicio prestado a través de internet, por el cual se permite el almacenamiento (a través del uso de un servidor) de distintos contenidos en la web.
@@ -42,7 +44,7 @@ Al estar en una etapa de desarrollo se considera irrelevante la capacidad de có
 \newpage
 \section{Hosting VPS}
 
-A partir de los requerimientos del proyecto se hace notoria la posible falta de rendimiento al escoger el alojamiento VPS, es por esto que al momento de gestionar el contrato con una prestadora de servicio se priorizó aquellas que tuvieran almacenamiento SSD (Disco en estado sólo en español), aumentando así notoriamente el rendimiento de la máquina virtual. Además de seleccionar un proveedor local del servicio tanto por temas de soporte, como por el tiempo de respuesta en las peticiones hechas desde el mismo territorio nacional. Además de lo anterior, se destaca la necesidad de un servidor con la opción de manejar los puertos del equipo y no solo el 80 (destinado a peticiones web).
+A partir de los requerimientos del proyecto se hace notoria la posible falta de rendimiento al escoger el alojamiento VPS, es por esto que al momento de gestionar el contrato con una prestadora de servicio se priorizó aquellas que tuvieran almacenamiento SSD (Disco en estado sólo en español), aumentando así notoriamente el rendimiento de la máquina virtual. Además, seleccionar un proveedor local del servicio tanto por temas de soporte, como por el tiempo de respuesta en las peticiones hechas desde el mismo territorio nacional. Además de lo anterior, se destaca la necesidad de un servidor con la opción de manejar los puertos del equipo y no solo el 80 (destinado a peticiones web).
 
 De esta forma se logra acceder a una máquina con las siguientes características:
 \textbf{Empresa:} OpenCloud en Chile por \$6.000 pesos mensuales.\\ 
@@ -56,8 +58,8 @@ De esta forma se logra acceder a una máquina con las siguientes característica
 \textbf{Disco Duro:} 20 [GB]\\
 \newpage
 En una primera instancia se maneja comunicación síncrona a través de peticiones HTTP comunes y experimentación con WebSocket (detallado más adelante).
-Proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP), permitiendo una comunicación entre el servidor y el navegador, método empleado para refrescar de forma automática la página principal en caso de algún ingreso nuevo de datos. 
-Para esto cada 100 [ms] se envía desde el navegador una marca de tiempo correspondiente al último dato recibido, en el servidor si ésta marca no corresponde al último dato existente, se envía una actualización de la cantidad de datos y el último dato actual, además de la nueva marca de tiempo.
+Proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP, permitiendo una comunicación entre el servidor y el navegador.
+Cada 100 [ms] se envía desde el navegador una marca de tiempo correspondiente al último dato recibido. Esta marca no corresponde al último dato existente, se envía una actualización de la cantidad de datos y el último dato actual, además de la nueva marca de tiempo.
 
 A través de una petición GET se entregan los datos a ingresar:\\ \textit{http://galenoproject.sytes.net/data/?name=ECG\&data=8\&save=yes}
 
@@ -72,9 +74,7 @@ Luego, a partir de la dirección: \textit{http://galenoproject.sytes.net/} se pu
 	\label{first_example}
 \end{figure}
 
-Lo cual corresponde a la cantidad de datos actual en la base de datos y el último dato recibido.
-
-
+El contenido de la figura \ref{first_example} corresponde a la cantidad de datos actual en la base de datos y el último dato recibido. 
 
 En las siguientes secciones se detalla la configuración del equipo y las herramientas empleadas hasta el momento.
 

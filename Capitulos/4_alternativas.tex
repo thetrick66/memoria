@@ -1,34 +1,40 @@
 \chapter{Alternativas de desarrollo}\label{alternativas}
-En el presente capítulo se ahondará en las distintas alternativas de diseño que existen para el prototipo con los distintos sensores requeridos, además de establecer la comunicación y el envío de la información tomada del paciente. Las etapas para el desarrollo del prototipo constan de: Elección de sistema de procesamiento o unidad central, sensores a utilizar y forma de comunicación inalámbrica.
+En el presente capítulo se ahondará en las distintas alternativas de diseño que existen para el prototipo con los distintos sensores requeridos, además de establecer la comunicación y el envío de la información tomada del paciente. Las etapas para el desarrollo del prototipo constan de: 
+\begin{enumerate}
+	\item Elección de sistema de procesamiento o unidad central.
+	\item Sensores a utilizar.
+	\item Forma de comunicación inalámbrica.
+\end{enumerate}
+
 \section{Plataforma de desarrollo}\label{proce}
 Al fabricar un prototipo, el desarrollador debe construir el hardware sobre el cual correrá el software del producto que ha diseñado, por lo que debe tomar componentes de diversos proveedores, integrarlos y hacerlos funcionar como un conjunto. Por esa razón se popularizó el uso de plataformas de desarrollo electrónico.  \\
-Por lo general, estas son placas que integran microcontroladores, circuitos y componentes electrónicos que le proporcionan diversas capacidades básicas y a partir de esto se puede evaluar la compatibilidad del diseño tanto en hardware como en software antes de enviar a fabricar el producto final. 
+Por lo general, estas son placas que integran microcontroladores, circuitos y componentes electrónicos que le proporcionan diversas capacidades básicas, y a partir de esto se puede evaluar la compatibilidad del diseño tanto en hardware como en software antes de enviar a fabricar el producto final. 
 
 \newpage
 \subsection{Arduino}
-Arduino es una plataforma de desarrollo de bajo costo que permite crear proyectos de base tecnológica de forma sencilla y barata, que consta de entradas análogas, entradas y salidas digitales, PWM, comunicación serial, etc. 
+Arduino es una plataforma de desarrollo de bajo costo que permite crear proyectos de base tecnológica de forma sencilla y barata. Que consta de entradas análogas, entradas y salidas digitales, PWM, comunicación serial, etc. 
 
-Uno de los beneficios de Arduino es que provee módulos de desarrollo de bajo costo para trabajar con integrados y estudiar su funcionamiento y prototipado.
+Uno de los beneficios de Arduino es que provee módulos de desarrollo de bajo costo para trabajar con chips integrados, estudiar su funcionamiento y prototipado.
 Arduino trabaja con una gran variedad microcontroladores AVR que diferencia por modelos dependiendo de las necesidades de proyecto, motivo por el cual varía en precio. 
 
-En primera instancia se puede trabajar con un modelo Arduino UNO que es de bajo costo y permite leer señales análogas y traducirlas en su conversor análogo-digital y dependiendo de las necesidades se puede conseguir otro modelo como Arduino Mega que ofrece mayores prestaciones. 
+En primera instancia se puede trabajar con un modelo Arduino UNO que es de bajo costo y permite leer señales análogas y traducirlas en su conversor análogo-digital. Dependiendo de las necesidades se puede conseguir otro modelo, como Arduino Mega, que ofrece mayores prestaciones. 
 \subsection{Raspberry}
-Raspberry es una computadora de placa reducida (SBC por sus siglas en inglés) de bajo costo, con el objetivo de estimular la enseñanza de ciencias de la computación, no obstante, es de propiedad registrada para poder mantener el control de la 8 plataforma y no se generan excesivas variantes como es el caso de Arduino. El software que usa es open source, aunque es capaz de ejecutar incluso una versión de Windows 10. Por lo mismo su capacidad de procesar señales es mayor y permite ejecutar proyectos más complejos. No se define si es que pueden o no ser usadas en desarrollos comerciales.
+Raspberry es una computadora de placa reducida (SBC por sus siglas en inglés) de bajo costo, con el objetivo de estimular la enseñanza de ciencias de la computación. No obstante, es de propiedad registrada para poder mantener el control de las 8 plataformas disponibles de Raspberry y no se generan excesivas variantes como es el caso de Arduino. El software que usa es open source, aunque es capaz de ejecutar incluso una versión de Windows 10. Por lo mismo su capacidad de procesar señales es mayor y permite ejecutar proyectos más complejos. No se define si es que pueden o no ser usadas en desarrollos comerciales.
 
 \newpage
 \subsection{Beaglebone}
-Beaglebone black es la última iteración de la serie Beaglebone y su versión pequeña. Esencialmente es similar a Raspberry, diferenciándose en cosas como la capacidad para iniciarse sin la necesidad de instalar ningún sistema operativo ya que tiene memoria integrada, no así Raspberry. Adicionalmente cuenta con una cantidad de entradas sustancialmente mayor, por lo que permite hasta el doble de conexiones que su competencia directa. Como si es no fuera suficiente, la arquitectura del procesador que incluye Beaglebone black permite que rinda hasta el doble de rápido que su contraparte en Raspberry pi. \\
-Al igual que su competencia, Beaglebone ofrece mucho mas procesamiento que el necesario por lo que se descarta como una opción para el desarrollo inicial del prototipo, de acuerdo a las necesidades que vayan surgiendo se puede considerar nuevamente como una opción.
+Beaglebone black es la última iteración de la serie Beaglebone. Esencialmente es similar a Raspberry, diferenciándose en cosas como la capacidad para iniciarse sin la necesidad de instalar ningún sistema operativo ya que tiene memoria integrada, no así Raspberry. Adicionalmente cuenta con una cantidad de entradas sustancialmente mayor, por lo que permite hasta el doble de conexiones que su competencia directa Raspberry. Como si eso no fuera suficiente, la arquitectura del procesador que incluye Beaglebone black permite que rinda hasta el doble de rápido que su contraparte en Raspberry pi. \\
+Al igual que su competencia, Beaglebone ofrece mucho mas procesamiento que el necesario por lo que se descarta como una opción para el desarrollo inicial del prototipo. De acuerdo a las necesidades que vayan surgiendo se puede considerar nuevamente como una opción.
 \newpage
 \section{Sensores}
-Hablando con la contraparte de Sistemas Expertos se decidió, a partir de la información que proveen ellos, que las enfermedades  mas comunes son las afecciones cardíacas y también es necesario tener un control de la temperatura de los pacientes a la hora de leer sus signos vitales. \\
-Por otra parte se propuso utilizar una IMU para detectar si algún paciente sufre una caída, este con el fin de emitir una alarma para llamar una ambulancia en caso de ser necesario.
+A partir de la información que provee la contraparte, se decide que las enfermedades  más comunes son las afecciones cardíacas. También es necesario tener un control de la temperatura de los pacientes a la hora de leer sus signos vitales. \\
+Por otra parte se propuso utilizar una IMU para detectar si algún paciente sufre una caída, esto con el fin de emitir una alarma para llamar una ambulancia en caso de ser necesario.
 \subsection{ECG}
 Electrocardiograma o ECG es el proceso de registrar la actividad eléctrica del corazón en un periodo de tiempo usando electrodos directamente en la piel.\\
-Lo fundamental será buscar un circuito de desarrollo para realizar una prueba de concepto, en la cual se puedan tomar los datos y manejar.
+Una parte fundamental para el desarrollo de un prototipo será buscar un circuito de desarrollo para realizar una prueba de concepto, en la cual se puedan tomar los datos y manejar.
 \subsubsection{DFRobot Heart Rate Monitor Sensor}
-El monitor de actividad cardiaca de la empresa DFRobot se usa para medir la actividad electrica del corazón con un integrado AD8232\cite{ad8232} que toma señales análogas de los electrodos y utiliza amplificadores para tener una mejor lectura de los datos.\\
-Utilizando un Arduino es posible leer los datos tomados de los electrodos y convertirlos a información digital que puede ser enviada por comunicación serial.\\
+El monitor de actividad cardiaca de la empresa DFRobot se usa para medir la actividad electrica del corazón con un chip integrado AD8232\cite{ad8232}, que toma señales análogas de los electrodos y utiliza amplificadores para tener una mejor lectura de los datos.\\
+Utilizando un Arduino, es posible leer los datos tomados de los electrodos y convertirlos a información digital que puede ser enviada por comunicación serial.\\
 
 \begin{figure}[H]
 	\centering
@@ -37,21 +43,21 @@ Utilizando un Arduino es posible leer los datos tomados de los electrodos y conv
 	\label{ecg}
 \end{figure}
 
-Como se puede observar en la figura \ref{ecg} posee conexión simple para electrodos y salida análoga, lo que permitirá una rápida prueba de concepto para utilizar este integrado en el diseño del dispositivo final. Además este provee filtros que se van a estudiar mas adelante.
+Como se puede observar en la figura \ref{ecg}, el dispositivo posee conexión simple para electrodos y salida análoga, lo que permitirá una rápida prueba de concepto para utilizar este integrado en el diseño del dispositivo final.
 
 
 \subsubsection{ADS1298}
-El integrado ADS1298 de la empresa Texas Instrument ofrece un ECG con 8 amplificadores programables de bajo ruido y 8 conversores Análogo-digital de alta resolución.\\
+El chip integrado ADS1298 de la empresa "Texas Instruments" ofrece un ECG con 8 amplificadores programables de bajo ruido y 8 conversores Análogo-digital de alta resolución.\\
 Utilizado para instrumentación medica y lectura tanto de ECG como EMG (Electromiograma) y EEG (Electroencefalograma).\\
-El integrado ADS1298 es una buena opción para un desarrollo de ECG en el futuro de grado médico, pero es de un precio 10 veces mayor al dispositivo de DFRobot por lo que se va a descartar para el prototipo funcional.
+El chip integrado ADS1298 es una buena opción para un desarrollo de ECG en el futuro, pero es de un precio 10 veces mayor al dispositivo DFRobot, por lo que se va a descartar para el prototipo funcional.
 \subsection{Temperatura}
-Cuando se requiere realizar alguna medición a un paciente siempre es necesario conocer su temperatura corporal que sirve como información complementaria a los profesionales de la salud es por esto que se evaluarán termistores que permitan la lectura de este dato.
+Cuando se requiere realizar alguna medición a un paciente, siempre es necesario conocer su temperatura corporal. La temperatura sirve como información complementaria, es por esto que se evaluarán termistores que permitan la lectura de este dato.
 \subsubsection{Lilypad Temperature Sensor}
 Dentro de la tendencia del hardware abierto, uno de los proyectos más destacados es Lilypad Arduino, un conjunto de piezas electrónicas que se pueden coser a los tejidos para darles interactividad con sensores, luces o sonidos.\\
 Entre estos sensores tenemos un sensor de temperatura compuesto por un termistor MCP9700 el cual ofrece una resolución de $\pm2^\circ C.$\\
 
 \newpage
-La particularidades que ofrece este sensor es ser de muy bajo costo y a su vez es impermeable por lo que permitiría incorporarlo en el wearable de forma permanente sin dañar la componente.
+La ventjas que ofrece este sensor son el ser de muy bajo costo y a su vez impermeable, por lo que permitiría incorporarlo en el wearable de forma permanente sin dañar la componente.
 
 \begin{figure}[H]
 	\centering
@@ -63,7 +69,7 @@ La particularidades que ofrece este sensor es ser de muy bajo costo y a su vez e
 Como se puede observar en la figura \ref{Lilypad}, Lilypad ofrece una PCB impermeable con 3 terminales que permiten utilizar un hilo conductor para coser este a la ropa.
 
 \subsubsection{DS18B20}
-El sensor DS18B20\cite{temp} es un termómetro digital que ofrece una medida de 9 a 12 bits de resolución. Se comunica mediante el bus 1-Wire (protocolo de comunicación en serie diseñado por Dallas Semiconductor el cual está basado en un maestro y varios esclavos en una sola linea de datos) lo cual permitiría, en caso de ser necesario, incorporar mas sensores para obtener una medida con mayor precisión. 
+El sensor DS18B20\cite{temp} es un termómetro digital que ofrece una medida de 9 a 12 bits de resolución. Se comunica mediante el bus 1-Wire lo cual permitiría, en caso de ser necesario, incorporar más sensores para obtener una medida con mayor precisión. 
 Este termómetro digital ofrece una resolución de $\pm0.5^\circ C$ y a su vez ofrece un formato impermeable en forma cilíndrica como se observa en la figura \ref{DS18B20}.
 
 \begin{figure}[H]
@@ -74,7 +80,7 @@ Este termómetro digital ofrece una resolución de $\pm0.5^\circ C$ y a su vez o
 \end{figure}
 
 \subsection{Ritmo Respiratorio}
-Para medir el ritmo respiratorio, sensor que la contraparte pidió estudiar utilizando una tela conductora, se consideró el uso de la tela conductiva MedTex, la cual entrega un valor de resistividad en ohms en su estado en reposo y este varía dependiendo de su estiramiento.\\
+Para medir el ritmo respiratorio, se consideró el uso de la tela conductiva MedTex sugerida por la contraparte, la cual entrega un valor de resistividad en ohms en su estado en reposo y este varía dependiendo de su estiramiento.\\
 
 \begin{figure}[H]
 	\centering
@@ -83,7 +89,7 @@ Para medir el ritmo respiratorio, sensor que la contraparte pidió estudiar util
 	\label{medtex}
 \end{figure}
 
-Para estudiar la factibilidad de la tela conductiva que se puede observar en la figura \ref{medtex} se cortó una tira de un tamaño $20x2 [cm]$ en estiramiento cero sobre una banda elástica que luego fue cosida como cinturón de pecho. Una vez colocada en cada extremo de la tela conductiva se colocó un caimán conectado a su vez a un multitester que permitía visualizar variaciones de la resistividad de la tela a partir de su estiramiento. 
+Para estudiar la factibilidad de la tela conductiva que se puede observar en la figura \ref{medtex}, se cortó una tira de un tamaño $20x2 [cm]$ en estiramiento cero sobre una banda elástica que luego fue cosida como cinturón de pecho. Una vez colocada, en cada extremo de la tela conductiva se colocó un caimán conectado a su vez a un multitester que permitía visualizar variaciones de la resistividad de la tela a partir de su estiramiento. 
 
 \newpage
 \begin{table}[H]
@@ -92,7 +98,7 @@ Para estudiar la factibilidad de la tela conductiva que se puede observar en la 
 		\hline
 		\multicolumn{1}{|c|}{\textbf{Resistencia en reposo [$\Omega$]}}&
 		\multicolumn{1}{c|}{\textbf{Resistencia en estiramiento [$\Omega$]}}&
-		\multicolumn{1}{|c|}{\textbf{\% de variación)}}\\ \hline
+		\multicolumn{1}{|c|}{\textbf{\% de variación}}\\ \hline
 		$4.8$  & $4.6$  & $0.1420$  \\ \hline
 		$4.7$  & $4.5$ & $0.1421$ \\ \hline
 		$4.8$ & $4.7$  & $0.0722$  \\ \hline
@@ -107,7 +113,7 @@ Para estudiar la factibilidad de la tela conductiva que se puede observar en la 
 		\hline
 		\multicolumn{1}{|c|}{\textbf{Resistencia en reposo [$\Omega$]}}&
 		\multicolumn{1}{c|}{\textbf{Resistencia en estiramiento [$\Omega$]}}&
-		\multicolumn{1}{|c|}{\textbf{\% de variación)}}\\ \hline
+		\multicolumn{1}{|c|}{\textbf{\% de variación}}\\ \hline
 		$4.7$  & $4.6$  & $0.0699$  \\ \hline
 		$4.7$  & $4.6$ & $0.0699$ \\ \hline
 		$4.6$ & $4.5$  & $0.0723$  \\ \hline
@@ -122,7 +128,7 @@ Para estudiar la factibilidad de la tela conductiva que se puede observar en la 
 		\hline
 		\multicolumn{1}{|c|}{\textbf{Resistencia en reposo [$\Omega$]}}&
 		\multicolumn{1}{c|}{\textbf{Resistencia en estiramiento [$\Omega$]}}&
-		\multicolumn{1}{|c|}{\textbf{\% de variación)}}\\ \hline
+		\multicolumn{1}{|c|}{\textbf{\% de variación}}\\ \hline
 		$4.7$  & $4.6$  & $0.0699$  \\ \hline
 		$4.8$  & $4.7$ & $0.0722$ \\ \hline
 		$4.7$ & $4.5$  & $0.1421$  \\ \hline
@@ -131,12 +137,12 @@ Para estudiar la factibilidad de la tela conductiva que se puede observar en la 
 	\label{tablatex3}
 \end{table}
 
-Se puede observar en las tablas \ref{tablatex1}, \ref{tablatex2} y \ref{tablatex3} las variaciones de resistencias no son constantes ni regulares, el mismo estiramiento a veces no producía la misma variaciones de resistencia. Además por mínimas variaciones en el movimiento también habían variaciones que arruinaban la medición, por lo que esta alternativa no sería viable para medir el ritmo respiratorio.
+Se puede observar en las tablas \ref{tablatex1}, \ref{tablatex2} y \ref{tablatex3} que las variaciones de resistencias no son constantes ni regulares, el mismo estiramiento a veces no producía la misma variaciones de resistencia. Además por mínimas variaciones en el movimiento, también habían variaciones que arruinaban la medición, por lo que esta alternativa no sería viable para medir el ritmo respiratorio.
 
 \subsection{Unidad de movimiento inercial (IMU)}
 Una unidad de movimiento inercial o IMU (del inglés inertial measurement unit), es un dispositivo electrónico que mide la aceleración, inclinación y las fuerzas gravitacionales, usando una combinación de acelerómetros y giroscopios.
 \subsubsection{MPU-9250}
-El integrado MPU-9250 es un modulo multi-chip que consiste en 2 integrados en un empaquetado QFN. Este provee un giroscopio de 3 ejes y un acelerómetro de 3 ejes.
+El integrado MPU-9250 es un modulo multi-chip que consiste en 2 chips integrados en un empaquetado QFN. Este provee un giroscopio de 3 ejes y un acelerómetro de 3 ejes.
 Este chip provee tres conversores análogo-digital de 16 bits para digitalizar las salidas del giroscopio, acelerómetro y giroscopio de manera independiente.\\
 Sparkfun provee una PCB de desarrollo para realizar pruebas como se muestra en la imagen \ref{imu1}.
 
@@ -172,17 +178,21 @@ Para el proyecto se consideran distintas alternativas de conexión, las cuales d
 	\item \textbf{Baja complejidad:}
 	Considerando que el dispositivo en cuestión debiera ser lo más autónomo y sencillo de configurar, es relevante considerar tecnologías de comunicación que no requieran de complejas operaciones para su uso e implementación.
 	\item \textbf{Escalabilidad:}
-	Si bien es un aspecto dependiente de los anteriores requerimientos, es relevante considerarlo por separado como la medida que representa la capacidad de atender una gran cantidad de conexiones (usuarios en definitiva). 
+	Si bien es un aspecto dependiente de los anteriores requerimientos, es relevante considerarlo por separado como la medida que representa la capacidad de atender una gran cantidad de conexiones concurrentes (más allá del tiempo de cada conexión).
 \end{enumerate}
 
 En base a lo anterior, se hace un análisis rápido de diferentes alternativas que podrían utilizarse en el proyecto:
 
 \begin{enumerate}
 	\item \textbf{Antenas de RF:}\cite{RF}
-	Comunicación generada en las bandas situadas entre los 3 kilohercios (KHz) y 300 Gigahercios (GHz). Esta tecnología incluye distintas otras tecnologías como las redes celulares, pero en este apartado se especifica el uso de bandas no utilizadas por esta y otras tecnologías. Permitiendo una conexión directa de antena a antena a una frecuencia específica a determinar.
+	Comunicación generada en las bandas situadas entre los 3 kilohercios (KHz) y 300 Gigahercios (GHz). Esta tecnología incluye otras como las redes celulares, pero en este apartado se especifica el uso de bandas no utilizadas por esta, permitiendo una conexión directa de antena a antena a una frecuencia específica a determinar.
 	
 	\item \textbf{Comunicación satelital:}\cite{satelite}
-	Comunicación  por medio de ondas electromagnéticas transmitidas gracias a la presencia en el espacio de satélites artificiales situados en órbita alrededor de la Tierra. Dentro de esta tecnología se pueden encontrar dos grandes clasificaciones: Satélites activos y Satélites pasivos, los cuales se diferencian por la amplificación o de las señales antes de ser reenviadas a la Tierra, respectivamente.
+	Comunicación  por medio de ondas electromagnéticas transmitidas gracias a la presencia en el espacio de satélites artificiales situados en órbita alrededor de la Tierra. Dentro de esta tecnología se pueden encontrar dos grandes clasificaciones: 
+	\begin{enumerate}
+		\item Satélites activos: Satélites que amplifican la señal reenviada a la Tierra.
+		\item Satélites pasivos: Satélites que no amplifican la señal reenviada a la Tierra.
+	\end{enumerate}
 	
 	\item \textbf{Redes Wi-Fi:}\cite{wifi}
 	También llamada WLAN (Wireless lan, red inalámbrica) o estándar IEEE 802.11, es una de las tecnologías de comunicación inalámbrica mediante ondas más utilizada hoy en día. Existen distintas variantes de este estándar de comunicación, entre los que se destacan 802.11g y 802.11n, por su uso actual en dispositivos comerciales.
@@ -242,11 +252,11 @@ Cabe destacar que para poder utilizar este módulo es necesario incluir una ante
 	\label{antena}
 \end{figure}
 
-Al considerar este módulo se puede concluir que es incompatible con el diseño del wearable ya que la antena es muy grande (aproximadamente $57.40[mm]$ ) lo que sería molesto en el dispositivo final. Otro punto en contra de este módulo es el alto costo y el consumo energía que lo hace incompatible con la autonomía que se desea.
+Al considerar este módulo, se puede concluir que es incompatible con el diseño del wearable ya que la antena es muy grande (aproximadamente $57.40[mm]$), lo que sería molesto en el dispositivo final. Otro punto en contra de este módulo es el alto costo y el consumo energía que lo hace incompatible con la autonomía que se desea.
 
 \subsection{Celular indirecta: Bluetooth BLE shield}
-Para integrar Bluetooth en el dispositivo se considera un BLEBee el cual ofrece Bluetooth versión 4.1 y comunicación UART mediante un puerto XBEE. \\
-El shield Bluetooth posee un módulo RN4020\cite{RN4020} el cual ofrece una antena para la comunicación en su misma placa lo que facilita el diseño como se puede observar en la figura \ref{bt}.
+Para integrar Bluetooth en el dispositivo se considera un BLEBee, el cual ofrece Bluetooth versión 4.1 y comunicación UART mediante un puerto XBEE. \\
+El shield Bluetooth posee un módulo RN4020\cite{RN4020} el cual ofrece una antena para la comunicación en su misma placa lo que facilita el diseño, como se puede observar en la figura \ref{bt}.
 
 \begin{figure}[H]
 	\centering
@@ -262,18 +272,20 @@ Es importante destacar que para mejorar el diseño, el fabricante recomienda dej
 \section{Conclusiones}
 En esta sección, tomando en cuenta las opciones vistas en el mismo capítulo, se seleccionarán las primeras componentes a utilizar para el prototipo funcional y para realizar la prueba de concepto con lo que se va a basar el proyecto.
 \subsection{Plataforma de desarrollo}
-Para la plataforma de desarrollo se va a escoger trabajar con Arduino ya que este posee distintas versiones con distintos costos, los cuales son menores que Raspberry o Beaglebone. Además cabe destacar que el sistema que se quiere desarrollar es toma de datos y envío de información por lo que no se va a requerir tanto procesamiento. Arduino cubre las necesidades en su versión UNO con un microcontrolador ATMega328p, en caso de necesitar uno de mayor capacidad se puede optar por un Arduino Mega.
+Para la plataforma de desarrollo se va a escoger trabajar con Arduino ya que este posee distintas versiones con distintos costos, los cuales son menores que Raspberry o Beaglebone. Además, cabe destacar que el sistema que se quiere desarrollar es toma de datos y envío de información, por lo que no se va a requerir tanto procesamiento. Arduino cubre las necesidades en su versión UNO con un microcontrolador ATMega328p y en caso de necesitar uno de mayor capacidad, se puede optar por un Arduino Mega.
 \subsection{Electrocardiograma}
 Para el sensor de electrocardiograma se utilizará el monitor de actividad cardíaca de DFRobot, esto debido a que es la única opción que se puede conseguir en el país para no retrasar el desarrollo. Este sensor es de muy bajo costo (alrededor de 19.500 CLP en MCIElectronics).
-El integrado ADS1298 es una buena opción como una mejora para una segunda iteración del diseño para mejorar la señal que se puede obtener debido a que este posee mayor tolerancia al ruido. Se debe destacar esta última opción debido a que se debe encargar directamente desde Texas Instruments y esto puede tomar mucho tiempo.
+El chip integrado ADS1298 es una buena opción como una mejora para una segunda iteración del diseño para mejorar la señal que se puede obtener debido a que este posee mayor tolerancia al ruido. Se debe descartar esta última opción debido a que se debe encargar directamente desde "Texas Instruments" y esto puede tomar mucho tiempo.
 
 \newpage
 \subsection{Temperatura}
-En primera instancia se va a utilizar el sensor Lilypad ya que este está diseñado específicamente para wearables además de que utiliza un hilo conductor para unir sus terminales con la alimentación y la toma de datos. Este sensor tiene un valor aproximado de 3.790 CLP.\\
-Dependiendo de los resultados obtenidos en la primeras pruebas se va a evaluar la segunda alternativa de utilizar el DS18B20 el cual tiene un valor aproximado de 5.900 CLP.
+En primera instancia se va a utilizar el sensor Lilypad ya que este está diseñado específicamente para wearables. Además, utiliza un hilo conductor para unir sus terminales con la alimentación y la toma de datos. Este sensor tiene un valor aproximado de 3.790 CLP.\\
+Dependiendo de los resultados obtenidos en la primeras pruebas, se va a evaluar la segunda alternativa de utilizar el DS18B20, el cual tiene un valor aproximado de 5.900 CLP.
 \subsection{IMU}
-Al buscar las alternativas que existen en el país, todas las opciones de desarrollo usan distintas placas de desarrollo pero utilizan el mismo sensor MPU-9250 por lo que se va a utilizar la placa de Sparkfun MPU-9250 luego de tener el prototipo funcional con los primeros sensores de electrocardiograma y temperatura. Esta placa de desarrollo tiene un valor aproximado de 12.500 CLP.
+Al buscar las alternativas que existen en el país, todas las opciones usan distintas placas de desarrollo, pero utilizan el mismo sensor MPU-9250. Dado lo anterior, se va a utilizar la placa de Sparkfun MPU-9250 luego de tener el prototipo funcional con los primeros sensores de electrocardiograma y temperatura. Esta placa de desarrollo tiene un valor aproximado de 12.500 CLP.
 \subsection{Comunicación}
 Entre las alternativas mencionadas, se opta por utilizar en primera instancia el GPRS/GSM shield, el cual posee un costo aproximado de 43.980 CLP.
 Cabe mencionar que en una segunda instancia se utilizaría el chip RN4020, el cual posee un precio aproximado de 20.000 CLP.\\
-Si bien el costo es menor, es relevante la complejidad que agrega la segunda opción (al agregar un actor como lo puede ser un teléfono inteligente). Aunque la flexibilidad que brinda esta segunda opción y ciertos aspectos de la primera son las que obligan este cambio.
+Si bien el costo es menor, es relevante la complejidad que agrega la segunda opción (al agregar un actor como lo puede ser un teléfono inteligente), además de aumentar los tiempos de respuesta por el actor extra. Es por lo anterior, que se decide en una primera instancia recurrir al módulo GPRS/GSM.
+
+Aunque la flexibilidad que brinda la segunda opción (chip Bluetooth RN4020) y ciertos aspectos negativos de la primera son las que obligan un posterior cambio.

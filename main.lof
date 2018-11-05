@@ -20,41 +20,41 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Antena GPRSBee. Fuente: https://www.mcielectronics.cl/}}{35}{figure.4.8}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Bluetooth RN4020. Fuente: https://www.mcielectronics.cl/}}{36}{figure.4.9}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Mercado compartido mundial de sistemas operativos m\IeC {\'o}viles 2017-2018 \cite {market_share_cita}}}{42}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Arquitectura de la prueba de concepto. Fuente: Elaboraci\IeC {\'o}n propia}}{45}{figure.5.2}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Mercado compartido mundial de sistemas operativos m\IeC {\'o}viles 2017-2018 \cite {market_share_cita}}}{43}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Arquitectura de la prueba de concepto. Fuente: Elaboraci\IeC {\'o}n propia}}{47}{figure.5.2}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Primera versi\IeC {\'o}n de la p\IeC {\'a}gina web. Fuente: Elaboraci\IeC {\'o}n propia}}{50}{figure.6.1}
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Proceso de anuncio de un dispositivo \cite {RN4020}}}{55}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Transacciones GATT \cite {RN4020}}}{56}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Orden de objetos en transacciones GATT \cite {RN4020}}}{57}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Topolog\IeC {\'\i }a de red de dispositivos conectados \cite {RN4020}}}{59}{figure.8.4}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Primera versi\IeC {\'o}n de la p\IeC {\'a}gina web. Fuente: Elaboraci\IeC {\'o}n propia}}{52}{figure.6.1}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Resultados, pruebas de configuraci\IeC {\'o}n ECG. Fuente: Elaboraci\IeC {\'o}n propia}}{64}{figure.10.1}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Uso de librer\IeC {\'\i }as en Android. Fuente: Android Studio}}{65}{figure.10.2}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Uso de RecyclerView. Fuente: Elaboraci\IeC {\'o}n propia}}{66}{figure.10.3}
-\contentsline {figure}{\numberline {10.4}{\ignorespaces QR con MAC de dispositivo Bluetooth. Fuente: Elaboraci\IeC {\'o}n propia}}{67}{figure.10.4}
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Men\IeC {\'u} lateral comprendido por distintos Fragment. Fuente: Elaboraci\IeC {\'o}n propia}}{68}{figure.10.5}
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Gr\IeC {\'a}fico en tiempo real con datos de ECG por Bluetooth. Fuente: Elaboraci\IeC {\'o}n propia}}{69}{figure.10.6}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Proceso de anuncio de un dispositivo \cite {RN4020}}}{57}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Transacciones GATT \cite {RN4020}}}{58}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Orden de objetos en transacciones GATT \cite {RN4020}}}{59}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Topolog\IeC {\'\i }a de red de dispositivos conectados \cite {RN4020}}}{61}{figure.8.4}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Control de peticiones por Handler y repetici\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{72}{figure.11.1}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces ECG a 300 [Hz] y 8 bit de resoluci\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{74}{figure.11.2}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces ECG a 300 [Hz] y 10 bit de resoluci\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{74}{figure.11.3}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces ECG a 1.000 [Hz] y 10 bit de resoluci\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{75}{figure.11.4}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Benchmark frente a SQLite con el uso de distintas librer\IeC {\'\i }as \cite {realm_android}}}{76}{figure.11.5}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Comparativa en escrituras a la base de datos \cite {realm_android}}}{77}{figure.11.6}
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Comparativa en lecturas a la base de datos \cite {realm_android}}}{77}{figure.11.7}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Clases de Realm utilizados para los datos de ECG. Fuente: Elaboraci\IeC {\'o}n propia}}{81}{figure.12.1}
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Tecnolog\IeC {\'\i }as empleadas en el lado del servidor. Fuente: Elaboraci\IeC {\'o}n propia}}{84}{figure.12.2}
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Pantalla principal de un usuario normal. Fuente: Elaboraci\IeC {\'o}n propia}}{85}{figure.12.3}
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Pantalla principal de un usuario con acceso total. Fuente: Elaboraci\IeC {\'o}n propia}}{85}{figure.12.4}
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Medici\IeC {\'o}n de ambos sensores en tiempo real. Fuente: Elaboraci\IeC {\'o}n propia}}{86}{figure.12.5}
-\contentsline {figure}{\numberline {12.6}{\ignorespaces Medici\IeC {\'o}n de ambos sensores en tiempo real (Web). Fuente: Elaboraci\IeC {\'o}n propia}}{86}{figure.12.6}
-\contentsline {figure}{\numberline {12.7}{\ignorespaces Medici\IeC {\'o}n de ambos sensores en tiempo real (Android). Fuente: Elaboraci\IeC {\'o}n propia}}{87}{figure.12.7}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Resultados, pruebas de configuraci\IeC {\'o}n ECG. Fuente: Elaboraci\IeC {\'o}n propia}}{66}{figure.10.1}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Uso de librer\IeC {\'\i }as en Android. Fuente: Android Studio}}{67}{figure.10.2}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Uso de RecyclerView. Fuente: Elaboraci\IeC {\'o}n propia}}{68}{figure.10.3}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces QR con MAC de dispositivo Bluetooth. Fuente: Elaboraci\IeC {\'o}n propia}}{69}{figure.10.4}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Men\IeC {\'u} lateral comprendido por distintos Fragment. Fuente: Elaboraci\IeC {\'o}n propia}}{70}{figure.10.5}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Gr\IeC {\'a}fico en tiempo real con datos de ECG por Bluetooth. Fuente: Elaboraci\IeC {\'o}n propia}}{71}{figure.10.6}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Tableros empleados en Trello. Fuente: Elaboraci\IeC {\'o}n propia}}{88}{figure.13.1}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Control de peticiones por Handler y repetici\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{74}{figure.11.1}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces ECG a 300 [Hz] y 8 bit de resoluci\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{76}{figure.11.2}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces ECG a 300 [Hz] y 10 bit de resoluci\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{76}{figure.11.3}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces ECG a 1.000 [Hz] y 10 bit de resoluci\IeC {\'o}n. Fuente: Elaboraci\IeC {\'o}n propia}}{77}{figure.11.4}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Benchmark frente a SQLite con el uso de distintas librer\IeC {\'\i }as \cite {realm_android}}}{78}{figure.11.5}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Comparativa en escrituras a la base de datos \cite {realm_android}}}{79}{figure.11.6}
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Comparativa en lecturas a la base de datos \cite {realm_android}}}{79}{figure.11.7}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Clases de Realm utilizados para los datos de ECG. Fuente: Elaboraci\IeC {\'o}n propia}}{83}{figure.12.1}
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Tecnolog\IeC {\'\i }as empleadas en el lado del servidor. Fuente: Elaboraci\IeC {\'o}n propia}}{86}{figure.12.2}
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Pantalla principal de un usuario normal. Fuente: Elaboraci\IeC {\'o}n propia}}{87}{figure.12.3}
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Pantalla principal de un usuario con acceso total. Fuente: Elaboraci\IeC {\'o}n propia}}{87}{figure.12.4}
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Medici\IeC {\'o}n de ambos sensores en tiempo real. Fuente: Elaboraci\IeC {\'o}n propia}}{88}{figure.12.5}
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Medici\IeC {\'o}n de ambos sensores en tiempo real (Web). Fuente: Elaboraci\IeC {\'o}n propia}}{88}{figure.12.6}
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Medici\IeC {\'o}n de ambos sensores en tiempo real (Android). Fuente: Elaboraci\IeC {\'o}n propia}}{89}{figure.12.7}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Tableros empleados en Trello. Fuente: Elaboraci\IeC {\'o}n propia}}{90}{figure.13.1}
 \addvspace {10pt}
 \addvspace {10pt}

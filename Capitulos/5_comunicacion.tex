@@ -1,8 +1,8 @@
 \chapter{Sistema de telecomunicaciones}\label{comunicacion}
 Se determinó utilizar la plataforma Arduino por su simplicidad en prototipado y programación, además de ser de fácil acceso y una tecnología escalable. En base a esto se decide comenzar a trabajar en el apartado de comunicación.
 \section{Redes móviles, Bluetooth y Android}
-Como se comentó anteriormente, la primera elección de tecnología para la comunicación fue la de utilizar redes móviles directamente, esto por medio del módulo GPRS Shield. Este es un módulo de comunicación 2G compatible con socket XBee para la Arduino UNO (un socket XBee dota a una placa Arduino de la capacidad de comunicarse en forma inalámbrica \cite{xbee_info}). Para comodidad se escogió una variante de Arduino UNO llamado PICARO+, la cual posee entre otras modificaciones el socket XBee integrado.\\
-Para esta comunicación se debe hacer uso tanto de la placa principal, el chip de comunicación y una antena, estas últimas 2 mencionadas en las figuras \ref{gprs} y \ref{antena}.\\
+Como se comentó anteriormente, la primera elección de tecnología para la comunicación fue la de utilizar redes móviles directamente, esto por medio del módulo GPRS Shield. Este es un módulo de comunicación 2G compatible con socket XBee para la Arduino UNO (un socket XBee dota a una placa Arduino de la capacidad de comunicarse en forma inalámbrica \cite{xbee_info}). Por agilidad de desarrollo se escogió una variante de Arduino UNO llamado PICARO+, la cual posee entre otras modificaciones el socket XBee integrado.\\
+Así, se hace uso tanto de la placa principal, el chip de comunicación y una antena. Estas últimas 2 mencionadas en las figuras \ref{gprs} y \ref{antena}.\\
 Dentro de las características del GPRS se encuentran el emplear una tarjeta SIM, conector SMA y el chip Quectel M95. En cuanto a la antena nos encontramos con cuatri-banda: 
 \begin{enumerate}
 	\item\textbf{GSM/850E: 824 a 894 [MHz]}
@@ -12,7 +12,7 @@ Dentro de las características del GPRS se encuentran el emplear una tarjeta SIM
 \end{enumerate}
 
 \newpage
-Si bien puede parecer cuestionable el utilizar tecnología 2G, es importante considerar que chip provee de hasta 85.6 [kbps] y diversos protocolos de comunicación. Con lo cual al año 2017 (se espera deshabilitar las redes 2G en el mediano plazo para dar paso a nuevas tecnologías) sirve como prueba de concepto dado su bajo costo y el acercamiento que ofrece a los comandos AT, los cuales son los empleados para controlar chips de este tipo.
+Si bien puede parecer cuestionable el utilizar tecnología 2G, es importante considerar que el chip provee de hasta 85.6 [kbps] y diversos protocolos de comunicación. Con lo cual al año 2017 (se espera deshabilitar las redes 2G en el mediano plazo para dar paso a nuevas tecnologías) sirve como prueba de concepto dado su bajo costo y el acercamiento que ofrece a los comandos AT, los cuales son los empleados para controlar chips de este tipo.
 Luego de comenzado el proceso de configuración, se encontraron diversos problemas con esta elección:
 
 \begin{enumerate}
@@ -33,19 +33,30 @@ Por todo lo anterior, se pasa a una segunda iteración en busca de emplear tecno
 
 \section{Perfiles Bluetooth}
 
-Bluetooth \cite{bluetooth} es una especificación industrial para Redes Inalámbricas de Área Personal (WPAN) creado por Bluetooth Special Interest Group, Inc. que posibilita la transmisión de voz y datos entre diferentes dispositivos mediante un enlace por radiofrecuencia en la banda ISM de los 2.4 GHz y data de 1994 y actualmente se encuentra en su versión 5.0. La versión a emplear en este proyecto es la 4.0 llamada BLE (Bluetooth Low Energy) que se detalla en capítulos adelante. \\
+Bluetooth \cite{bluetooth} es una especificación industrial para Redes Inalámbricas de Área Personal (WPAN) creado por Bluetooth Special Interest Group, Inc. que posibilita la transmisión de voz y datos entre diferentes dispositivos mediante un enlace por radiofrecuencia en la banda ISM de los 2.4 GHz, data de 1994 y actualmente se encuentra en su versión 5.0. La versión a emplear en este proyecto es la 4.0 llamada BLE (Bluetooth Low Energy). \\
 
-Un perfil Bluetooth es la especificación de una interfaz de alto nivel para su uso entre dispositivos Bluetooth. Para utilizar Bluetooth, un dispositivo debe implementar alguno de los perfiles soportados.
+Un perfil Bluetooth es la especificación de una interfaz de alto nivel para su uso entre dispositivos Bluetooth. 
 Los perfiles son descripciones de comportamientos generales que los dispositivos pueden utilizar para comunicarse, formalizados para favorecer un uso unificado. La forma de utilizar las capacidades de Bluetooth se basa, por tanto, en los perfiles que soporta cada dispositivo. Los perfiles permiten la manufactura de dispositivos que se adapten a sus necesidades.\\
 
-A la fecha existen más de 27 perfiles Bluetooth, pero durante el desarrollo del proyecto se emplearon solo dos: SPP y GATT, los cuales se detallarán en su momento.
+A la fecha existen más de 27 perfiles Bluetooth, pero durante el desarrollo del proyecto se emplearon solo dos: SPP y GATT.
 
-Las principales diferencias entre estos últimos dos perfiles son: GATT pertenece al estándar introducido en la versión 4.0 (desde ahora BLE) mientras que SPP en la versión 2.1. BLE está pensado para operar con un consumo energético inferior que versiones anteriores, posee mayor velocidad en el establecimiento de la conexión y está pensado para la transferencia de pequeñas cantidades de datos. Excepto por el último punto se puede observar una notoria superioridad de GATT (BLE) frente a SPP, pero como se verá más adelante, las tasas de transferencias obtenidas con GATT son lo suficientemente buenas como para escogerla en este proyecto.
+Las principales diferencias entre estos últimos dos perfiles son: 
+\begin{enumerate}
+	\item GATT pertenece al estándar introducido en la versión 4.0 (desde ahora BLE) mientras que SPP en la versión 2.1. 
+	\item BLE está pensado para operar con un consumo energético inferior que versiones anteriores, posee mayor velocidad en el establecimiento de la conexión y está pensado para la transferencia de pequeñas cantidades de datos. 
+\end{enumerate}
+Excepto por el último punto se puede observar una notoria superioridad de GATT (BLE) frente a SPP, pero como se verá más adelante, las tasas de transferencias obtenidas con GATT son lo suficientemente buenas como para escogerla en este proyecto.
 
 \newpage
-\section{Razones para Android}
+\section{Razones para elegir Android}
 
-Para seleccionar el intermediario entre la comunicación Bluetooth y las redes móviles se decidió un teléfono inteligente, por sus capacidades de cómputo, gran accesibilidad y flexibilidad al ofrecer un entorno de desarrollo propio de su sistema operativo. Ahora bien, para seleccionar el sistema operativo se recurre a su penetración en el mercado y como se puede observar en la figura \ref{market_share} Android se alza como el gigante en el mercado.
+Para seleccionar el intermediario entre la comunicación Bluetooth y las redes móviles se decidió usar un teléfono inteligente por:
+\begin{enumerate}
+	\item Capacidades de cómputo.
+	\item Gran presencia en el mercado de los móviles.
+	\item Flexibilidad al ofrecer un entorno de desarrollo propio de su sistema operativo. 
+\end{enumerate}
+Ahora bien, para seleccionar el sistema operativo se recurre a su penetración en el mercado y como se puede observar en la figura \ref{market_share}, Android se alza como el gigante en el mercado.
 
 \begin{figure}[H]
 	\centering
@@ -139,6 +150,6 @@ Para esto se implementó la siguiente arquitectura:
 	\label{prueba_concept}
 \end{figure}
 
-Como se puede observar en la figura \ref{prueba_concept} el servidor Bluetooth ()desarrollado en Java) fue implementado en computador (Windows), mientras que la aplicación Android básica permite el escaneo, selección y conexión con el servidor Bluetooth. Esto último sin utilizar librerías externas.
+Como se puede observar en la figura \ref{prueba_concept} el servidor Bluetooth (desarrollado en Java) fue implementado en un computador con Windows 7, mientras que la aplicación Android básica permite el escaneo, selección y conexión con el servidor Bluetooth. Esto último sin utilizar librerías externas.
 
 La prueba resultó exitosa, pudiendo enviar información (cadenas de texto) desde el computador hasta una página web previamente configurada, la cual se detallará en el siguiente capítulo. Cabe destacar que el uso de este perfil Bluetooth fue solo por simplicidad y próximamente se hará uso de un perfil acorde al proyecto.
